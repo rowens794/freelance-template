@@ -10,20 +10,31 @@ const people = [
 
 export default function Example() {
   return (
-    <div className="bg-white">
+    <section id="about" className="bg-white">
       <div className="px-4 py-12 mx-auto text-center max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-        <div className="space-y-12">
+        <div className="grid grid-cols-1 space-y-12 lg:grid-cols-2">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
               Meet the Developer
             </h2>
-            <p className="max-w-lg m-auto text-gray-500 text-md">
-              I'm Ryan. I run a small software company and this web developement
-              shop. I started the business to bring in some extra income while I
-              got my software product off the ground, but I discovered I liked
-              working with small businesses so I just kept going.
+            <p className="max-w-lg m-auto text-left text-gray-500 text-md">
+              I'm Ryan. I'm a web developer who loves working on web based
+              projects with business owners. After many conversations with folks
+              who've had bad experiences with high priced web design shops, I
+              decided to build a service that truly aligns the incentives of the
+              business owner and the web developer. To acheieve this, I build
+              websites with no upfront fees and instead create partnerships with
+              my customers with no long term commitments.
             </p>
-            <p className="max-w-lg m-auto text-gray-500 text-md">
+            <p className="max-w-lg m-auto text-left text-gray-500 text-md">
+              This pricing strategy allows my target customers (small
+              businesses) to make a quick decision on getting a professionally
+              designed website up without a multi-thousand dollar commitment. Of
+              course, that leaves me in the position of covering the upfront
+              development costs, so I want to stay in business I better deliver
+              on creating a high quality website.
+            </p>
+            <p className="max-w-lg m-auto text-left text-gray-500 text-md">
               While I do a lot of work on the web now-a-days, that hasn't always
               been the case. I spent about a decade as an investment manager at
               a large national back. That experience taught me to think about
@@ -74,6 +85,6 @@ export default function Example() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

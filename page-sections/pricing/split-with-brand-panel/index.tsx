@@ -1,34 +1,35 @@
 import {
-  CalendarIcon,
+  ColorSwatchIcon,
   CheckIcon,
   PlusIcon,
-  UsersIcon,
-  ViewBoardsIcon,
-  ViewListIcon,
+  ChartSquareBarIcon,
+  PencilAltIcon,
+  BookOpenIcon,
 } from '@heroicons/react/outline'
+import Link from 'next/link'
 
 const features = [
   {
     name: '5 Page Site',
-    icon: ViewListIcon,
+    icon: BookOpenIcon,
     description:
       'Convey all of the information your customers need, quickly and effectively.  If you need additional pages, we can provide a quote for the extra work. (btw, this site is 5 pages)',
   },
   {
     name: 'Unlimited Edits',
-    icon: ViewBoardsIcon,
+    icon: PencilAltIcon,
     description:
       "Any time there is a change to your business that needs to be reflected on your site, just give us a call and we'll get it done - same day.",
   },
   {
     name: 'Custom Design/Development',
-    icon: CalendarIcon,
+    icon: ColorSwatchIcon,
     description:
       "We don't build cookie cutter Wordpress sites.  Every site we build is hand coded to ensure the best performance, reliabilty, and conversion potential.",
   },
   {
     name: 'Google Analytics',
-    icon: UsersIcon,
+    icon: ChartSquareBarIcon,
     description:
       'We include a google analytics integration for free, so that you can see exactly how your site is being utilized and converting traffic into customers.',
   },
@@ -44,7 +45,7 @@ const checklist = [
 
 export default function Example() {
   return (
-    <div className="relative my-16 bg-white sm:my-24 lg:my-36">
+    <section id="pricing" className="relative my-16 bg-white sm:my-24 lg:my-36">
       <div className="absolute inset-0" aria-hidden="true">
         <div className="absolute inset-y-0 right-0 w-1/2 bg-primary-700" />
       </div>
@@ -131,15 +132,14 @@ export default function Example() {
                 </li>
               ))}
             </ul>
-            <a
-              href="/contact"
-              className="flex items-center justify-center w-full px-8 py-4 text-lg font-medium leading-6 bg-white border border-transparent rounded-md text-primary-600 hover:bg-primary-50 md:px-10"
-            >
-              Get started today
-            </a>
+            <Link href="/contact">
+              <a className="flex items-center justify-center w-full px-8 py-4 text-lg font-medium leading-6 bg-white border border-transparent rounded-md text-primary-600 hover:bg-primary-50 md:px-10">
+                Get started today
+              </a>
+            </Link>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import {
-  CloudUploadIcon,
-  LockClosedIcon,
-  RefreshIcon,
+  DeviceMobileIcon,
+  TemplateIcon,
+  AdjustmentsIcon,
 } from '@heroicons/react/outline'
 
 import clientInfo from '../data/clientInfo'
@@ -13,7 +13,7 @@ import FeaturesGrid from '../page-sections/features/grid-with-offset-icons'
 import PricingPanel from '../page-sections/pricing/split-with-brand-panel'
 import Portfolio from '../page-sections/portfolio/standard-portfolio'
 import AboutMe from '../page-sections/team/about-me'
-import Newsletter from '../page-sections/newletter/simple-with-description'
+// import Newsletter from '../page-sections/newletter/simple-with-description'
 
 const Home: NextPage = () => {
   return (
@@ -42,26 +42,26 @@ const Home: NextPage = () => {
               name: 'Mobile First Design',
               description:
                 'The internet has gone mobile.  We build sites for the devices your customers use.',
-              icon: CloudUploadIcon,
+              icon: DeviceMobileIcon,
             },
             {
               name: 'Responsive Design',
               description:
                 'Your site will scale beautifully as your customers move from mobile to tablet to desktop devices.',
-              icon: LockClosedIcon,
+              icon: TemplateIcon,
             },
             {
               name: 'Fully Optimized',
               description:
                 'Your site will load super fast on any device.  Helping you close more business.',
-              icon: RefreshIcon,
+              icon: AdjustmentsIcon,
             },
           ]}
         />
         <PricingPanel />
         <Portfolio />
         <AboutMe />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
     </div>
   )

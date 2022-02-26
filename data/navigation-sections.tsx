@@ -25,12 +25,12 @@ const pageNav = [
     type: 'link',
     icon: BriefcaseIcon,
   },
-  // {
-  //   title: 'Testimonials',
-  //   href: '/testimonials',
-  //   type: 'link',
-  //   icon: NewspaperIcon,
-  // },
+  {
+    title: 'Portfolio',
+    href: '/#portfolio',
+    type: 'link',
+    icon: NewspaperIcon,
+  },
   {
     title: 'Contact Us',
     href: '/contact',

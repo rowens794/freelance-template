@@ -4,6 +4,7 @@ import Head from 'next/head'
 import clientInfo from '../data/clientInfo'
 import Heading from '../page-sections/heading-sections/simple-centered'
 import Content from '../page-sections/content/two-columns-with-image'
+import CTA from '../page-sections/calls-to-action/simple-centered'
 
 const About: NextPage = () => {
   return (
@@ -20,6 +21,12 @@ const About: NextPage = () => {
           bodyText="I'm re-thinking the traditional web development model and combining a high value product with little to no commitment."
         />
         <Content />
+        <CTA
+          heading="Ready to Get Underway"
+          subHeading="Reach out and let's get the ball rolling"
+          link="/contact"
+          buttonText="Get Started"
+        />
       </main>
     </div>
   )

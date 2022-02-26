@@ -23,7 +23,10 @@ const posts = [
 
 export default function Example() {
   return (
-    <div className="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+    <section
+      id="portfolio"
+      className="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:px-8 lg:pt-28 lg:pb-28"
+    >
       <div className="absolute inset-0">
         <div className="bg-white h-1/3 sm:h-2/3" />
       </div>
@@ -36,11 +39,11 @@ export default function Example() {
             Take a look at the work we've done to thrill our clients.
           </p>
         </div>
-        <div className="flex justify-center max-w-lg gap-5 mx-auto mt-12 lg:max-w-none">
+        <div className="justify-center block gap-5 mx-auto mt-12 lg:flex lg:max-w-5xl">
           {posts.map((post) => (
             <div
               key={post.title}
-              className="flex flex-col max-w-md overflow-hidden rounded-lg shadow-lg"
+              className="flex flex-col max-w-md mx-auto my-4 overflow-hidden rounded-lg shadow-lg"
             >
               <div className="flex-shrink-0">
                 <img
@@ -79,6 +82,6 @@ export default function Example() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   )
 }
