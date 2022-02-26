@@ -4,7 +4,7 @@ interface ClientInfo {
   cityState: string | null
   phone: string | null
   email: string | null
-  gtagID: string | null
+  gtagID: string
   social: {
     platform: string
     href: string
