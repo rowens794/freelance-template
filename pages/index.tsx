@@ -1,84 +1,72 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import {
+  CloudUploadIcon,
+  CogIcon,
+  LockClosedIcon,
+  RefreshIcon,
+  ServerIcon,
+  ShieldCheckIcon,
+} from '@heroicons/react/outline'
+
+import clientInfo from '../data/clientInfo'
+
+import Hero from '../page-sections/heros/with-angled-image-on-right'
+import FeaturesGrid from '../page-sections/features/grid-with-offset-icons'
+import Contact from '../page-sections/contact/split-two-tone'
+import PricingPanel from '../page-sections/pricing/split-with-brand-panel'
+import Portfolio from '../page-sections/portfolio/standard-portfolio'
+import AboutMe from '../page-sections/team/about-me'
+import Newsletter from '../page-sections/newletter/simple-with-description'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>{clientInfo.name}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+      <main className="relative">
+        <Hero
+          heading1="Web Design & Development"
+          heading2="for Small Business"
+          image="/images/hero1.jpeg"
+          alt="Custom built Websites"
+          intro="Don't slow your page with Wordpress - We build completely custom websites that are blazing fast starting at $150/mo."
+          ctaText="Let's Talk"
+          ctaLink="/contact"
+        />
+        <FeaturesGrid
+          secTitle="What You Get"
+          secDesc="Every Thing You Need to Put Your Best Foot Forward"
+          secParagraph="We specialize in creating amazing websites for small business owners. We write everyline of code to make sure your website is lightning fast, responsive across devices, and optimized to generate the results your business needs."
+          features={[
+            {
+              name: 'Mobile First Design',
+              description:
+                'The internet has gone mobile.  We build sites for the devices your customers use.',
+              icon: CloudUploadIcon,
+            },
+            {
+              name: 'Responsive Design',
+              description:
+                'Your site will scale beautifully as your customers move from mobile to tablet to desktop devices.',
+              icon: LockClosedIcon,
+            },
+            {
+              name: 'Fully Optimized',
+              description:
+                'Your site will load super fast on any device.  Helping you close more business.',
+              icon: RefreshIcon,
+            },
+          ]}
+        />
+        <PricingPanel />
+        <Portfolio />
+        <AboutMe />
+        <Newsletter />
       </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
     </div>
   )
 }
