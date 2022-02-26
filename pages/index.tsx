@@ -2,18 +2,14 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import {
   CloudUploadIcon,
-  CogIcon,
   LockClosedIcon,
   RefreshIcon,
-  ServerIcon,
-  ShieldCheckIcon,
 } from '@heroicons/react/outline'
 
 import clientInfo from '../data/clientInfo'
 
 import Hero from '../page-sections/heros/with-angled-image-on-right'
 import FeaturesGrid from '../page-sections/features/grid-with-offset-icons'
-import Contact from '../page-sections/contact/split-two-tone'
 import PricingPanel from '../page-sections/pricing/split-with-brand-panel'
 import Portfolio from '../page-sections/portfolio/standard-portfolio'
 import AboutMe from '../page-sections/team/about-me'
