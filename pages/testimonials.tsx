@@ -13,7 +13,7 @@ const Testimonials: NextPage = () => {
       </Head>
 
       <main className="relative">
-        <Hero />
+        {/* <Hero /> */}
         {/* <Contact /> */}
       </main>
     </div>
