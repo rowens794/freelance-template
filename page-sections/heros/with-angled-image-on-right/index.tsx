@@ -63,6 +63,7 @@ export default function index({
           <Image
             src={image}
             alt={alt}
+            priority={true}
             layout="fill" // required
             objectFit="cover" // change to suit your needs
             className="w-full h-56 sm:h-72 md:h-96 lg:h-full lg:w-full" // just an example
