@@ -51,43 +51,13 @@ export default function Index() {
         </div>
         <div className="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
           <div className="max-w-lg mx-auto lg:max-w-none">
-            <form name="contact" method="POST" data-netlify="true">
-              <p>
-                <label>
-                  Your Name: <input type="text" name="name" />
-                </label>
-              </p>
-              <p>
-                <label>
-                  Your Email: <input type="email" name="email" />
-                </label>
-              </p>
-              <p>
-                <label>
-                  Your Role:{' '}
-                  <select name="role[]" multiple>
-                    <option value="leader">Leader</option>
-                    <option value="follower">Follower</option>
-                  </select>
-                </label>
-              </p>
-              <p>
-                <label>
-                  Message: <textarea name="message"></textarea>
-                </label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
-
-            {/* <form
-              name="contact3"
-              method="POST"
-              className="grid grid-cols-1 gap-y-6"
-              data-netlify="true"
-              netlify-honeypot="sweet-sweet-honey"
-            >
+            <form name="contact-page-form" method="POST" data-netlify="true">
+              <input
+                type="hidden"
+                name="contact-page-form"
+                value="contact"
+                className="grid grid-cols-1 gap-y-6"
+              />
               <p className="hidden">
                 <label>
                   Robots Only:
@@ -154,7 +124,7 @@ export default function Index() {
                   Submit
                 </button>
               </div>
-            </form> */}
+            </form>
           </div>
         </div>
       </div>
