@@ -56,7 +56,15 @@ export default function Index() {
               method="POST"
               className="grid grid-cols-1 gap-y-6"
               data-netlify="true"
+              netlify-honeypot="sweet-sweet-honey"
+              data-netlify-recaptcha="true"
             >
+              <p className="hidden">
+                <label>
+                  Robots Only:
+                  <input name="sweet-sweet-honey" />
+                </label>
+              </p>
               <div>
                 <label htmlFor="full-name" className="sr-only">
                   Full name
@@ -109,10 +117,12 @@ export default function Index() {
                   defaultValue={''}
                 />
               </div>
-              <div>
+              <div className="flex">
+                <div data-netlify-recaptcha="true">Recaptcha</div>
+
                 <button
                   type="submit"
-                  className="inline-flex justify-center px-6 py-3 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                  className="inline-flex justify-center px-6 py-3 ml-4 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
                 >
                   Submit
                 </button>
