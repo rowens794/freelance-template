@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import clientInfo from '../data/clientInfo'
-import Heading from '../page-sections/heading-sections/simple-centered'
-import Contact from '../page-sections/contact/split-two-tone'
+import clientInfo from '../../data/clientInfo'
+import Heading from '../../page-sections/heading-sections/simple-centered'
+import Contact from '../../page-sections/contact/split-two-tone'
 
 const Index: NextPage = () => {
   return (

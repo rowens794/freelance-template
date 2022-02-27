@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router.events])
 
   return (
-    <div className="relative">
+    <div className="relative ">
       <CenteredBorderHeader />
       <Component {...pageProps} />
       <Footer />
