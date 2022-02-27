@@ -1,12 +1,4 @@
-const people = [
-  {
-    name: 'Ryan Owens',
-    role: 'Developer',
-    imageUrl: '/images/headshot.jpeg',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-  },
-]
+import Image from 'next/image'
 
 export default function Example() {
   return (
@@ -48,11 +40,14 @@ export default function Example() {
           >
             <li>
               <div className="space-y-6">
-                <img
+                <Image
                   className="w-40 h-40 mx-auto rounded-full xl:h-56 xl:w-56"
                   src="/images/headshot.jpeg"
                   alt="Ryan Owens"
+                  height={224}
+                  width={224}
                 />
+
                 <div className="space-y-2">
                   <div className="space-y-1 text-lg font-medium leading-6">
                     <h3 className="inline-block">Ryan Owens</h3>

@@ -11,6 +11,10 @@ const About: NextPage = () => {
     <div className="">
       <Head>
         <title>{clientInfo.name}</title>
+        <meta
+          name="description"
+          content="We build custom websites for small business owners without upfront expenses."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
