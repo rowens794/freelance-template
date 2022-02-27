@@ -52,12 +52,11 @@ export default function Index() {
         <div className="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
           <div className="max-w-lg mx-auto lg:max-w-none">
             <form
-              name="contact"
+              name="contact3"
               method="POST"
               className="grid grid-cols-1 gap-y-6"
               data-netlify="true"
               netlify-honeypot="sweet-sweet-honey"
-              data-netlify-recaptcha="true"
             >
               <p className="hidden">
                 <label>
@@ -117,9 +116,7 @@ export default function Index() {
                   defaultValue={''}
                 />
               </div>
-              <div className="flex">
-                <div data-netlify-recaptcha="true"></div>
-
+              <div className="">
                 <button
                   type="submit"
                   className="inline-flex justify-center px-6 py-3 ml-4 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"

@@ -88,6 +88,7 @@ export default function Index() {
         </div>
         <div className="mt-12">
           <form
+            name="contact1"
             action="#"
             method="POST"
             className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"

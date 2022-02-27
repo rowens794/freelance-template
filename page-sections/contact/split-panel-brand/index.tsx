@@ -162,6 +162,7 @@ export default function Index() {
                 Send us a message
               </h3>
               <form
+                name="contact2"
                 action="#"
                 method="POST"
                 className="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
