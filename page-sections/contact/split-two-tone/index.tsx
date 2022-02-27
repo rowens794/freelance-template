@@ -59,8 +59,8 @@ export default function Index() {
             >
               <input
                 type="hidden"
-                name="ContactPage"
-                value="contact"
+                name="contact"
+                value="ContactPage"
                 className="grid grid-cols-1 gap-y-6"
               />
               <div>
