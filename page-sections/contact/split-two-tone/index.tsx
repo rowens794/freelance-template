@@ -55,7 +55,6 @@ export default function Index() {
               name="ContactPage"
               method="POST"
               data-netlify="true"
-              netlify-honeypot="bot-field"
               className="grid grid-cols-1 gap-2"
             >
               <input
@@ -64,12 +63,6 @@ export default function Index() {
                 value="contact"
                 className="grid grid-cols-1 gap-y-6"
               />
-              <p className="hidden">
-                <label>
-                  Robots Only:
-                  <input name="bot-field" />
-                </label>
-              </p>
               <div>
                 <label htmlFor="full-name" className="sr-only">
                   Full name
