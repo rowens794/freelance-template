@@ -51,10 +51,10 @@ export default function Index() {
         </div>
         <div className="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
           <div className="max-w-lg mx-auto lg:max-w-none">
-            <form name="contact-page-form" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
               <input
                 type="hidden"
-                name="contact-page-form"
+                name="contact"
                 value="contact"
                 className="grid grid-cols-1 gap-y-6"
               />
