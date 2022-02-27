@@ -55,11 +55,12 @@ export default function Index() {
               name="ContactPage"
               method="POST"
               data-netlify="true"
+              action="/contact/success"
               className="grid grid-cols-1 gap-2"
             >
               <input
                 type="hidden"
-                name="contact"
+                name="form-name"
                 value="ContactPage"
                 className="grid grid-cols-1 gap-y-6"
               />
