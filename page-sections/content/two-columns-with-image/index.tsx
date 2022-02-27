@@ -1,6 +1,3 @@
-import { CameraIcon } from '@heroicons/react/solid'
-import clientInfo from '../../../data/clientInfo'
-
 export default function Example() {
   return (
     <div className="overflow-hidden bg-white">
@@ -51,19 +48,6 @@ export default function Example() {
                 fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"
               />
             </svg>
-            <div className="relative mx-auto text-base max-w-prose lg:max-w-none">
-              <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
-                    className="object-cover object-center rounded-lg shadow-lg"
-                    src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80"
-                    alt="Whitney leaning against a railing on a downtown street"
-                    width={1184}
-                    height={1376}
-                  />
-                </div>
-              </figure>
-            </div>
           </div>
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto text-base max-w-prose lg:max-w-none">
@@ -79,21 +63,21 @@ export default function Example() {
               <p>
                 This disjuction between the high cost/commitment of high-quality
                 web developement projects and the lack of certainty around the
-                results these projects will bring is the reason I started{' '}
-                {clientInfo.name}.
+                results these projects will bring is the reason I started
+                Conversion Pages.
               </p>
               <p>
-                I wanted to execute on a business model that would allow other
-                business owners to quickly pull the trigger on what would
-                typically be an expensive and time consuming project: Building a
-                high-quality web presence.
+                I wanted to build something that would allow other business
+                owners to quickly pull the trigger on what would typically be an
+                expensive and time consuming project: Building a high-quality
+                web presence.
               </p>
               <p>
                 To do this, I knew I needed to take a major risk with every new
-                client I brought on - I essentially needed to self-fund the cost
-                of building their website and wager that they would be so
-                pleased with the product, service, and results that they would
-                stay on as long-term clients of mine.
+                client I brought on - I needed to self-fund the cost of building
+                their website and wager that they would be so pleased with the
+                product, service, and results that they would stay on as
+                long-term clients of mine.
               </p>
               <p>
                 This is exactly what I've built for myself and more importantly

@@ -13,7 +13,7 @@ interface ClientInfo {
 }
 
 const clientInfo: ClientInfo = {
-  name: 'Webpages That Convert',
+  name: 'Conversion Pages',
   street: null,
   cityState: null,
   phone: '(304) 231-7428',
