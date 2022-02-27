@@ -52,15 +52,15 @@ export default function Index() {
         <div className="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
           <div className="max-w-lg mx-auto lg:max-w-none">
             <form
-              name="contact-page"
+              name="contact-page1"
               method="POST"
               data-netlify="true"
               netlify-honeypot="bot-field"
             >
               <input
                 type="hidden"
-                name="contact-page"
-                value="contact-page"
+                name="contact-page1"
+                value="contact-page1"
                 className="grid grid-cols-1 gap-y-6"
               />
               <p className="hidden">
