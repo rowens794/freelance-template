@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <Hero
           heading1="Web Design & Development"
           heading2="for Small Business"
-          image="/images/hero1.jpeg"
+          image="/images/hero-mock-hq.jpg"
           alt="Custom built Websites"
           intro="Don't slow your page with Wordpress - We build completely custom websites that are blazing fast starting at $150/mo."
           ctaText="Let's Talk"

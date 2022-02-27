@@ -1,23 +1,25 @@
+import Image from 'next/image'
+
 const posts = [
   {
     title: "Allison's Tax & Financial Services",
     category: 'Marketing Site',
     description:
       "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
-    imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+    imageUrl: '/images/intellispect.jpg',
     buttonText: "Visit Allison's",
     siteLink: 'https://www.allisonstax.com',
+    alt: "Allison's Tax Build",
   },
   {
     title: 'Intellispect',
     category: 'Web Application',
     description:
       "Intelispect is a Software as a Service business that needed a front and backend that would help them display information on more than 1.5 million nonprofit organizations in the US.  There site built using some of the latest web technologies to ensure it's fast, stable, and easy to use.",
-    imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+    imageUrl: '/images/intellispect.jpg',
     buttonText: 'Visit Intellispect',
     siteLink: 'https://www.intellispect.co',
+    alt: 'Intellispect Build',
   },
 ]
 
@@ -46,10 +48,12 @@ export default function Example() {
               className="flex flex-col max-w-md mx-auto my-4 overflow-hidden rounded-lg shadow-lg"
             >
               <div className="flex-shrink-0">
-                <img
-                  className="object-cover w-full h-48"
+                <Image
                   src={post.imageUrl}
-                  alt=""
+                  alt={post.alt}
+                  height={192}
+                  width={448}
+                  className="object-cover w-full h-48"
                 />
               </div>
               <div className="flex flex-col justify-between flex-1 p-6 bg-white">

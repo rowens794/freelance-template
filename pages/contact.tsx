@@ -9,7 +9,7 @@ const Index: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>Contact {clientInfo.name}</title>
+        <title>{clientInfo.name}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

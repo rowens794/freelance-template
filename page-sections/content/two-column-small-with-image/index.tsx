@@ -1,11 +1,10 @@
-import { CameraIcon } from '@heroicons/react/solid'
-import clientInfo from '../../../data/clientInfo'
+import Image from 'next/image'
 
 interface sectionContent {
   header: string
   boldText: string
   content: string[]
-  img: string
+  Img: string | Function
   alt: string
   direction: string
 }
@@ -14,7 +13,7 @@ export default function Example({
   header,
   boldText,
   content,
-  img,
+  Img,
   alt,
   direction,
 }: sectionContent) {
@@ -26,13 +25,17 @@ export default function Example({
         >
           {/* Image Content */}
           <div className="relative hidden pt-6 mx-auto text-right md:block">
-            <img
-              className="inline-block object-cover object-center rounded-lg shadow-lg "
-              src="https://via.placeholder.com/400"
-              alt={alt}
-              width={400}
-              height={400}
-            />
+            {typeof Img === 'string' ? (
+              <img
+                className="inline-block object-cover object-center rounded-lg "
+                src={Img}
+                alt={alt}
+                width={400}
+                height={400}
+              />
+            ) : (
+              <Img />
+            )}
           </div>
 
           {/* Text Content */}

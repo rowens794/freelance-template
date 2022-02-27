@@ -58,7 +58,7 @@ export default function index({
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="bg-primary-600 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <div className="">
           <Image
             src={image}

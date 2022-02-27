@@ -10,7 +10,7 @@ const About: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>About {clientInfo.name}</title>
+        <title>{clientInfo.name}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
