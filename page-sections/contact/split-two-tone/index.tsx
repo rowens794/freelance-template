@@ -118,7 +118,7 @@ export default function Index() {
                 />
               </div>
               <div className="flex">
-                <div data-netlify-recaptcha="true">Recaptcha</div>
+                <div data-netlify-recaptcha="true"></div>
 
                 <button
                   type="submit"
