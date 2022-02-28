@@ -17,7 +17,7 @@ import AboutMe from '../page-sections/team/about-me'
 
 const Home: NextPage = () => {
   return (
-    <div className="min-h-full bg-white">
+    <div className="min-h-[calc(100vh-8rem)] bg-white">
       <Head>
         <title>{clientInfo.name}</title>
         <meta
