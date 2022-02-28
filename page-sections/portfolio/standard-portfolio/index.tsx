@@ -6,9 +6,9 @@ const posts = [
     category: 'Marketing Site',
     description:
       "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
-    imageUrl: '/images/intellispect.jpg',
+    imageUrl: '/images/tax-site-mock.jpg',
     buttonText: "Visit Allison's",
-    siteLink: 'https://www.allisonstax.com',
+    siteLink: 'https://tax-site-staging.netlify.app/',
     alt: "Allison's Tax Build",
   },
   {

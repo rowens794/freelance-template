@@ -23,7 +23,7 @@ export default function index({ color }: Props) {
           stroke="none"
           strokeWidth="1"
           fill="none"
-          fill-rule="evenodd"
+          fillRule="evenodd"
         >
           <g
             transform="translate(-702.000000, -7014.000000)"

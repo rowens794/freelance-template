@@ -51,9 +51,12 @@ export default function Example({
               </div>
             </div>
 
-            {content.map((paragraph) => {
+            {content.map((paragraph, i) => {
               return (
-                <div className="mx-auto mt-5 prose text-gray-500 prose-primary lg:col-start-1 lg:row-start-1 lg:max-w-none">
+                <div
+                  className="mx-auto mt-5 prose text-gray-500 prose-primary lg:col-start-1 lg:row-start-1 lg:max-w-none"
+                  key={i}
+                >
                   <p>{paragraph}</p>
                 </div>
               )
