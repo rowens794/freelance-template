@@ -2,16 +2,6 @@ import Image from 'next/image'
 
 const posts = [
   {
-    title: "Allison's Tax & Financial Services",
-    category: 'Marketing Site',
-    description:
-      "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
-    imageUrl: '/images/tax-site-mock.jpg',
-    buttonText: "Visit Allison's",
-    siteLink: 'https://tax-site-staging.netlify.app/',
-    alt: "Allison's Tax Build",
-  },
-  {
     title: 'Intellispect',
     category: 'Web Application',
     description:
@@ -20,6 +10,26 @@ const posts = [
     buttonText: 'Visit Intellispect',
     siteLink: 'https://www.intellispect.co',
     alt: 'Intellispect Build',
+  },
+  {
+    title: 'Wellington Asset Management',
+    category: 'Marketing Site',
+    description:
+      'Wellington is a brochure site for an Investment Management company that helps individuals, companies, and nonprofit organizations manage & invest financial assets so that they can meet their long term goals.',
+    imageUrl: '/images/Wellington.jpg',
+    buttonText: 'Visit Wellington',
+    siteLink: 'https://demo-ria-site.netlify.app/',
+    alt: 'Wealth Management Build',
+  },
+  {
+    title: "Allison's Tax & Financial Services",
+    category: 'Marketing Site',
+    description:
+      "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
+    imageUrl: '/images/tax-site-mock.jpg',
+    buttonText: "Visit Allison's",
+    siteLink: 'https://tax-site-staging.netlify.app/',
+    alt: "Allison's Tax Build",
   },
 ]
 
@@ -41,11 +51,11 @@ export default function Example() {
             Take a look at the work we've done to thrill our clients.
           </p>
         </div>
-        <div className="justify-center block gap-5 mx-auto mt-12 lg:flex lg:max-w-5xl">
+        <div className="justify-center block gap-8 mx-auto mt-12 lg:grid lg:max-w-6xl lg:grid-cols-3">
           {posts.map((post) => (
             <div
               key={post.title}
-              className="flex flex-col max-w-md mx-auto my-4 overflow-hidden rounded-lg shadow-lg"
+              className="flex flex-col max-w-sm mx-auto my-12 overflow-hidden rounded-lg shadow-lg lg:my-4"
             >
               <div className="flex-shrink-0">
                 <Image
