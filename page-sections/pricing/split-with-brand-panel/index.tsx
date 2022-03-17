@@ -107,7 +107,7 @@ export default function Example() {
                 <span>
                   <span className="flex flex-col text-center">
                     <span className="text-5xl font-extrabold tracking-tight text-white">
-                      $150
+                      $300
                     </span>
                     <span className="mt-2 text-base font-medium text-primary-200">
                       Per month

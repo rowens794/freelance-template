@@ -21,7 +21,7 @@ const About: NextPage = () => {
       <main className="relative">
         <Heading
           heading="A Website that's A Great Deal for the Customer"
-          boldText="A Great Site for $150? What Gives?"
+          boldText="A Great Site for $300? What Gives?"
           bodyText="I'm re-thinking the traditional web development model and combining a high value product with little to no commitment."
         />
         <Content />

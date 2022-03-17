@@ -21,7 +21,7 @@ const pricing = {
     },
     {
       title: 'Standard + Business',
-      price: 150,
+      price: 300,
       description:
         'Best for individuals for families with a business and/or rental property.',
       features: [
