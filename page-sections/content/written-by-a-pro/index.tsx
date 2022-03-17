@@ -16,7 +16,7 @@ export default function Example() {
               Your Story Told by an Industry Pro
             </h2>
             <p className="mt-2 text-2xl font-extrabold text-gray-900 sm:text-3xl">
-              CFA Charterholder + Decade of Experience
+              CFA Charterholder + a Decade of Experience
             </p>
           </div>
         </div>
