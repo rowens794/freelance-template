@@ -5,13 +5,13 @@ export default function Example() {
       className="relative py-12 my-16 bg-white sm:my-24 lg:my-36"
     >
       <div className="absolute inset-0" aria-hidden="true">
-        <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-300" />
-        <div className="absolute inset-y-0 right-0 w-1/2 bg-gray-100 sm:block" />
+        <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-100 lg:bg-gray-300" />
+        <div className="absolute inset-y-0 right-0 w-1/2 bg-gray-100 " />
       </div>
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-2 lg:px-8">
         {/* Left Hand Side */}
-        <div className="px-4 py-8 bg-gray-100 sm:px-6 lg:bg-transparent lg:py-16 lg:px-0 lg:pr-8">
-          <div className="max-w-lg mx-auto lg:mx-0">
+        <div className="relative px-4 py-8 bg-gray-100 sm:px-6 lg:bg-transparent lg:py-16 lg:px-0 lg:pr-8 ">
+          <div className="max-w-lg mx-auto top-1/2 lg:absolute lg:mx-0 lg:-translate-y-1/2 lg:transform">
             <h2 className="text-base font-semibold tracking-wide uppercase text-primary-700">
               Your Story Told by an Industry Pro
             </h2>

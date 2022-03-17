@@ -74,8 +74,8 @@ export default function Example() {
                       </svg>
                     </a>
                     <p className="text-primary-600">Web Developer /</p>
-                    <p className="leading-3 text-primary-600">
-                      Investment Advisor
+                    <p className="text-sm leading-3 text-primary-600 ">
+                      (Former) Investment Advisor
                     </p>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">

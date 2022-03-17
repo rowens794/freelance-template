@@ -134,7 +134,8 @@ export default function Example() {
                 project myself and charge you, the advisor, monthly for the work
                 that's been done. I don't require any upfront payment or long
                 term commitment. I can do this because I'm confident that my
-                work will deliver the result you want.
+                work will deliver the result you want and you will want to
+                continue a relationship with me.
               </p>
             </div>
           </div>

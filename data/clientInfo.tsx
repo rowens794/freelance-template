@@ -17,8 +17,8 @@ const clientInfo: ClientInfo = {
   street: null,
   cityState: null,
   phone: '(304) 231-7428',
-  email: 'rowens794@gmail.com',
-  gtagID: 'XX-XXXXXXXX',
+  email: 'ryan@webpagesthatconvert.com',
+  gtagID: 'UA-223228197-1',
   social: [
     // {
     //   platform: 'facebook',

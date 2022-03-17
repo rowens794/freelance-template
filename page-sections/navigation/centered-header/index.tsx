@@ -117,17 +117,19 @@ export default function Index() {
                     })
                     .map((item, i) => {
                       return (
-                        <Link href={item.href} key={i}>
-                          <a className="flex p-2 rounded-sm hover:bg-gray-100">
-                            <item.icon
-                              className="flex-shrink-0 w-6 h-6 text-primary-600"
-                              aria-hidden="true"
-                            />
-                            <span className="ml-3 text-base font-medium text-gray-900">
-                              {item.title}
-                            </span>
-                          </a>
-                        </Link>
+                        <Popover.Button key={i}>
+                          <Link href={item.href}>
+                            <a className="flex p-2 rounded-sm hover:bg-gray-100">
+                              <item.icon
+                                className="flex-shrink-0 w-6 h-6 text-primary-600"
+                                aria-hidden="true"
+                              />
+                              <span className="ml-3 text-base font-medium text-gray-900">
+                                {item.title}
+                              </span>
+                            </a>
+                          </Link>
+                        </Popover.Button>
                       )
                     })}
                 </nav>
