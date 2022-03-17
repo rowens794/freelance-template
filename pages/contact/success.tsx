@@ -19,9 +19,9 @@ const Index: NextPage = () => {
 
       <main className="relative min-h-[calc(100vh-10rem)] ">
         <Heading
-          heading="We've Recieved Your Message"
+          heading="I've Recieved Your Message"
           boldText="Thanks for Reaching Out!"
-          bodyText="We'll be in touch soon."
+          bodyText="I'll be in touch soon."
         />
       </main>
     </div>

@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <title>{clientInfo.name}</title>
         <meta
           name="description"
-          content="I build custom websites for small business owners without upfront expenses."
+          content="I build custom websites for financial advisors with no upfront costs."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
