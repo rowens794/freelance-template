@@ -11,7 +11,7 @@ type Props = {}
 const waysToFile = [
   {
     name: 'Drop off at Office',
-    desc: `Got a lot going on but still need to file.  No problem, just drop off your tax documents and we'll file everything on your behalf.  If we have any questions, we'll give you a call.`,
+    desc: `Got a lot going on but still need to file.  No problem, just drop off your tax documents and we'll file everything on your behalf.  If I have any questions, I'll give you a call.`,
     icon: Car,
     ctaText: 'Drop Off Today',
     ctaLink: '/contact',

@@ -7,31 +7,35 @@ export default function Example() {
         <div className="grid grid-cols-1 space-y-12 lg:grid-cols-2">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-              Meet the Developer
+              Hi, I'm Ryan
             </h2>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
-              I'm Ryan. I'm a web developer who loves working on web based
-              projects with business owners. After many conversations with folks
-              who've had bad experiences with high priced web design shops, I
-              decided to build a service that truly aligns the incentives of the
-              business owner and the web developer. To acheieve this, I build
-              websites with no upfront fees and instead create partnerships with
-              my customers with no long term commitments.
+              I've spent more than a decade working as an investment advisor,
+              serving high-net-worth and institutional clients. During this part
+              of my career I worked closely with clients and prospect and
+              developed a deep understanding of the issues that drove them to
+              make decisions. When I left investment management I knew I wanted
+              to help investment advisors deliver their right message to their
+              current and future customers.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
-              This pricing strategy allows my target customers (small
-              businesses) to make a quick decision on getting a professionally
-              designed website up without a multi-thousand dollar commitment. Of
-              course, that leaves me in the position of covering the upfront
-              development costs, so I want to stay in business I better deliver
-              on creating a high quality website.
+              As I looked out at the market for web development solutions for
+              investment advisors for I saw a slew of low quality agencies that
+              slap an advisor's logo on a slow, poorly written template with no
+              support and charge hundreds of dollars a month. This struck as a
+              very poor value proposition.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
-              While I do a lot of work on the web now-a-days, that hasn't always
-              been the case. I spent about a decade as an investment manager at
-              a large national back. That experience taught me to think about
-              solving business problems, which is exactly that state of mind I
-              bring to every client engagement.
+              There was, of course, another side to the market filled with
+              highed end agencies that produce beautiful high quality sites, but
+              charge 5 figures for developement. This investment is hard to
+              justify for small practices.
+            </p>
+            <p className="max-w-lg m-auto text-left text-gray-500 text-md">
+              As a one man shop I serve as bridge between the two established
+              models. I produce high quality custom work for my customers, but
+              becuase I don't have the overhead of a full service agency, I can
+              do so at a price that makes sense for small practices.
             </p>
           </div>
           <ul
@@ -50,7 +54,7 @@ export default function Example() {
 
                 <div className="space-y-2">
                   <div className="space-y-1 text-lg font-medium leading-6">
-                    <h3 className="inline-block">Ryan Owens</h3>
+                    <h3 className="inline-block">Ryan Owens, CFA</h3>
                     <a
                       href="https://www.linkedin.com/in/ryan-james-owens/"
                       className="inline-block ml-2 text-gray-400 hover:text-gray-500"
@@ -69,7 +73,10 @@ export default function Example() {
                         />
                       </svg>
                     </a>
-                    <p className="text-primary-600">Web Developer</p>
+                    <p className="text-primary-600">Web Developer /</p>
+                    <p className="leading-3 text-primary-600">
+                      Investment Advisor
+                    </p>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">
                     <li></li>

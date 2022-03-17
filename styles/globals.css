@@ -5,3 +5,117 @@
 html {
   scroll-behavior: smooth;
 }
+
+.mobileOrb {
+  /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+  position: absolute;
+  right: 0px;
+  bottom: 32px;
+
+  /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+  -webkit-animation: mobileOrbit 20s linear infinite;
+  -moz-animation: mobileOrbit 20s linear infinite;
+  -o-animation: mobileOrbit 20s linear infinite;
+  animation: mobileOrbit 20s linear infinite;
+}
+
+@-webkit-keyframes mobileOrbit {
+  from {
+    -webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(10px) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes mobileOrbit {
+  from {
+    -moz-transform: rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(10px) rotate(-360deg);
+  }
+}
+
+@-o-keyframes mobileOrbit {
+  from {
+    -o-transform: rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(10px) rotate(-360deg);
+  }
+}
+
+@keyframes mobileOrbit {
+  from {
+    transform: rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(10px) rotate(-360deg);
+  }
+}
+
+.desktopOrb {
+  /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+  position: absolute;
+  left: 0px;
+  bottom: 16px;
+
+  /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+  -webkit-animation: desktopOrbit 28s linear infinite;
+  -moz-animation: desktopOrbit 28s linear infinite;
+  -o-animation: desktopOrbit 28s linear infinite;
+  animation: mobileOrbit 28s linear infinite;
+}
+
+@-webkit-keyframes desktopOrbit {
+  from {
+    -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+}
+
+@-moz-keyframes desktopOrbit {
+  from {
+    -moz-transform: rotate(360deg) translateX(5px) rotate(-360deg);
+  }
+  to {
+    -moz-transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+}
+
+@-o-keyframes desktopOrbit {
+  from {
+    -o-transform: rotate(360deg) translateX(5px) rotate(-360deg);
+  }
+  to {
+    -o-transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+}
+
+@keyframes desktopOrbit {
+  from {
+    transform: rotate(360deg) translateX(5px) rotate(-360deg);
+  }
+  to {
+    transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+}

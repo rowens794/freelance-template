@@ -19,7 +19,7 @@ const Services: NextPage = () => {
         <title>{clientInfo.name}</title>
         <meta
           name="description"
-          content="We build custom websites for small business owners without upfront expenses."
+          content="I build custom websites for financial advisors without upfront expenses."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -30,15 +30,15 @@ const Services: NextPage = () => {
         <Heading
           heading="How this Works"
           boldText="A Service Explainer in 3 Minutes"
-          bodyText="Web design & development can seem nebulous and confusing.  Let's breakdown exactly how we create a strong web presence for business owners."
+          bodyText="Web design & development can seem nebulous and confusing.  Let's breakdown exactly how I create a strong web presence for financial advisors."
         />
         <div className="py-4 lg:py-0" />
         <Section
           header="The Goal"
-          boldText="Convert Vistors into Customers"
+          boldText="Get In Front of Prospects and Convert them to Clients"
           content={[
-            `The number 1 goal with a web property is to convert visitors into customers.  When people reach your website, we want them to understand exactly what your value proposition is, why they should trust you to deliver on it, and how to take action on your offer. `,
-            `In order to accomplish this, your website needs to easy to understand, effortless to navigate, and quick to load.  If you get any of these three pieces wrong, visitors will leave and you've lost your chance at a sale.`,
+            `The number 1 goal with a web property is to get in front of people who need financial advisory services and convince them that you are the advisor for them.  This starts by understanding where traffic will come from and creating a site that will match the search intent of the real life people in your market.`,
+            `When people reach your website, I want them to understand exactly what your value proposition is, why they should trust you to deliver on it, and how to take action on your offer. `,
           ]}
           Img={() => <VisitorToCustomer width={400} />}
           alt=""
@@ -58,11 +58,11 @@ const Services: NextPage = () => {
         />
         <ImageConnectorLines direction="LTR" />
         <Section
-          header="We Solve These Issues"
-          boldText="We Build Websites for Business"
+          header="I Solve These Issues"
+          boldText="I Build Websites for Advisors"
           content={[
-            "When we sign up a new customer, they don't have to think about the latest design standards or copywriting techniques.  We take the time to understand their business, and produce a site that communicates why potential customers should care about them.",
-            'Better yet we make ourselves available 24/7 for issues that pop-up & content changes, so that the only thing you have to worry about is servicing new customers.  All of our websites come with unlimited revisions and content adjustments even after the site has launched. Think of us as your in-house tech team.',
+            "When I sign up a new customer, they don't have to think about the latest design standards or copywriting techniques.  I take the time to understand their practice, and produce a site that communicates why potential clients should care about them.",
+            'Better yet, I make myself available 24/7 for issues and content changes, so that the only thing you have to worry about is servicing new clients.  All of our websites come with unlimited revisions and content adjustments even after the site has launched. Think of me as your in-house tech team.',
           ]}
           Img={() => <Websites width={400} />}
           alt=""
@@ -70,11 +70,11 @@ const Services: NextPage = () => {
         />
         <ImageConnectorLines direction="RTL" />
         <Section
-          header="We Build Sites that Perform"
+          header="I Build Sites that Perform"
           boldText="Best Practices to a T"
           content={[
-            "We avoid page builders and custom code our websites for a reason.  It's the only way to ensure optimal speed, SEO best practices, and accessibility standards are met. Staying concious of each of these factors directly translates into a website will generate as many new customers as possible for your business.",
-            'By dedicating attention to these details, we send a strong signal to search engines, like google, that your website deserves to climb in the ranks relative to less well positioned competitors.',
+            "I avoid page builders and custom code each websites for a reason.  It's the only way to ensure optimal speed, SEO best practices, and accessibility standards are met. Staying concious of each of these factors directly translates into a website will generate as many new clients as possible for your business.",
+            'By dedicating attention to these details, I send a strong signal to search engines, like Google, that your website deserves to climb in the ranks relative to less well positioned competitors.',
           ]}
           Img={() => <BestPractices width={400} />}
           alt=""

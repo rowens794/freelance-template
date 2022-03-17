@@ -11,7 +11,7 @@ const Testimonials: NextPage = () => {
         <title>Create Next App</title>
         <meta
           name="description"
-          content="We build custom websites for small business owners without upfront expenses."
+          content="I build custom websites for small business owners without upfront expenses."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -20,7 +20,7 @@ const pageNav = [
     icon: IdentificationIcon,
   },
   {
-    title: 'Our Service',
+    title: 'The Service',
     href: '/services',
     type: 'link',
     icon: BriefcaseIcon,
@@ -32,7 +32,7 @@ const pageNav = [
     icon: NewspaperIcon,
   },
   {
-    title: 'Contact Us',
+    title: 'Contact Me',
     href: '/contact',
     type: 'CTA',
     icon: PhoneIcon,

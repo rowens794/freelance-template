@@ -159,7 +159,7 @@ export default function Index() {
             {/* Contact form */}
             <div className="px-6 py-10 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 className="text-lg font-medium text-gray-900">
-                Send us a message
+                Send me a message
               </h3>
               <form
                 name="contact2"

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -15,11 +16,26 @@ export default function index({
   heading1,
   heading2,
   intro,
-  image,
-  alt,
   ctaText,
   ctaLink,
 }: PageData) {
+  let [size, setSize] = useState(600)
+
+  useEffect(() => {
+    function autoResize() {
+      if (window.innerWidth > 1300) {
+        setSize(600)
+      } else {
+        setSize(500)
+      }
+    }
+
+    window.addEventListener('resize', autoResize)
+
+    // Return a function to disconnect the event listener
+    return () => window.removeEventListener('resize', autoResize)
+  })
+
   return (
     <div className="relative z-10 pt-12 overflow-hidden bg-white lg:pt-0">
       <div className="mx-auto max-w-7xl">
@@ -58,16 +74,26 @@ export default function index({
           </main>
         </div>
       </div>
-      <div className="bg-primary-600 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <div className="">
-          <Image
-            src={image}
-            alt={alt}
-            priority={true}
-            layout="fill" // required
-            objectFit="cover" // change to suit your needs
-            className="w-full h-56 sm:h-72 md:h-96 lg:h-full lg:w-full" // just an example
-          />
+      <div className="invisible bg-primary-600 lg:visible lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <div className=" absolute bottom-8 left-8 w-[600px] xl:left-0 xl:h-[500px] xl:w-[750px]">
+          <div className="absolute z-30 desktopOrb">
+            <img
+              src="/images/screen.svg"
+              width={size}
+              className=" saturate-25"
+              alt="desktop friendly web design"
+              aria-hidden="true"
+            />
+          </div>
+          <div className="absolute z-30 mobileOrb xl:visible ">
+            <img
+              src="/images/mobile.svg"
+              width={size * 0.667}
+              className="saturate-75"
+              alt="mobile friendly web design"
+              aria-hidden="true"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -127,9 +127,9 @@ export default function Index() {
             </span>
           </h1>
           <p className="mt-8 text-xl leading-8 text-gray-500">
-            Every engagement is unique and we will adapt to ensure your needs
-            are met. However, what you should expect when you work with us is
-            the following:
+            Every engagement is unique and I will adapt the project to ensure
+            your needs are met. However, what you should expect when you work
+            with me is the following:
           </p>
 
           <ul className="grid grid-cols-1 mt-8 ml-12 text-gray-500 list-disc sm:ml-8 sm:grid-cols-2">
@@ -220,7 +220,7 @@ const PricingSection = () => {
                             className="block w-full px-6 py-3 text-base font-medium text-center bg-white border border-transparent rounded-lg text-primary-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
-                            Contact Us
+                            Contact Me
                           </a>
                         </Link>
                       </div>
@@ -286,7 +286,7 @@ const PricingSection = () => {
                           className="block w-full px-6 py-4 text-xl font-medium leading-6 text-center text-white border border-transparent rounded-lg bg-primary-600 hover:bg-primary-700"
                           aria-describedby="tier-scale"
                         >
-                          Contact Us
+                          Contact Me
                         </a>
                       </Link>
                     </div>
@@ -335,7 +335,7 @@ const PricingSection = () => {
                             className="block w-full px-6 py-3 text-base font-medium text-center bg-white border border-transparent rounded-lg text-primary-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
-                            Contact Us
+                            Contact Me
                           </a>
                         </Link>
                       </div>

@@ -43,7 +43,7 @@ export default function Index({
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="pt-6 ">
-                <div className="flow-root px-6 pb-8 bg-gray-100 rounded-lg h-52">
+                <div className="flow-root px-3 pb-4 bg-gray-100 border-t-4 rounded-lg h-52 border-primary-800 drop-shadow-lg sm:px-6 sm:pb-8">
                   <div className="-mt-6">
                     <div>
                       <span className="inline-flex items-center justify-center p-3 rounded-md shadow-lg bg-primary-500">
@@ -53,7 +53,7 @@ export default function Index({
                         />
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900 sm:text-xl">
                       {feature.name}
                     </h3>
                     <p className="mt-5 text-base text-gray-600">

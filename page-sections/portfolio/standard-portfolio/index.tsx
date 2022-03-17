@@ -37,7 +37,7 @@ export default function Example() {
   return (
     <section
       id="portfolio"
-      className="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:px-8 lg:pt-28 lg:pb-28"
+      className="relative px-4 pt-8 pb-10 bg-gray-100 sm:px-6 lg:px-8 lg:pt-28 lg:pb-28"
     >
       <div className="absolute inset-0">
         <div className="bg-white h-1/3 sm:h-2/3" />
@@ -45,10 +45,10 @@ export default function Example() {
       <div className="relative mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Some of Our Work
+            Some of My Work
           </h2>
           <p className="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">
-            Take a look at the work we've done to thrill our clients.
+            Take a look at the work I've done to thrill my clients.
           </p>
         </div>
         <div className="justify-center block gap-8 mx-auto mt-12 lg:grid lg:max-w-6xl lg:grid-cols-3">
@@ -61,14 +61,15 @@ export default function Example() {
                 <Image
                   src={post.imageUrl}
                   alt={post.alt}
-                  height={192}
+                  height={225}
                   width={448}
                   className="object-cover w-full h-48"
                 />
               </div>
+
               <div className="flex flex-col justify-between flex-1 p-6 bg-white">
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
+                  <p className="text-sm font-medium text-primary-600">
                     {post.category}
                   </p>
                   <a
@@ -84,6 +85,7 @@ export default function Example() {
                   </a>
                 </div>
               </div>
+
               <div className="w-full h-12 text-right">
                 <a
                   className="w-24 p-4 m-4 text-white rounded-md bg-primary-600 hover:bg-primary-700"

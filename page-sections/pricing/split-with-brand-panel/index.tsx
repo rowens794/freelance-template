@@ -13,25 +13,25 @@ const features = [
     name: '5 Page Site',
     icon: BookOpenIcon,
     description:
-      'Convey all of the information your customers need, quickly and effectively.  If you need additional pages, we can provide a quote for the extra work. (btw, this site is 5 pages)',
+      'Convey all of the information your customers need, quickly and effectively.  If you need additional pages, I can provide a quote for the extra work.',
   },
   {
     name: 'Unlimited Edits',
     icon: PencilAltIcon,
     description:
-      "Any time there is a change to your business that needs to be reflected on your site, just give us a call and we'll get it done - same day.",
+      "Any time there is a change to your business that needs to be reflected on your site, just give me a call and it's done - same day.",
   },
   {
     name: 'Custom Design/Development',
     icon: ColorSwatchIcon,
     description:
-      "We don't build cookie cutter Wordpress sites.  Every site we build is hand coded to ensure the best performance, reliabilty, and conversion potential.",
+      "I don't build cookie cutter sites.  Every site I build is hand coded to ensure the best performance, reliabilty, and conversion potential.",
   },
   {
     name: 'Google Analytics',
     icon: ChartSquareBarIcon,
     description:
-      'We include a google analytics integration for free, so that you can see exactly how your site is being utilized and converting traffic into customers.',
+      'I include a google analytics integration for free, so that you can see exactly how your site is being utilized and converting traffic into customers.',
   },
 ]
 const checklist = [
@@ -49,6 +49,7 @@ export default function Example() {
       <div className="absolute inset-0" aria-hidden="true">
         <div className="absolute inset-y-0 right-0 w-1/2 bg-primary-700" />
       </div>
+
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-2 lg:px-8">
         <div className="px-4 py-16 bg-white sm:py-24 sm:px-6 lg:px-0 lg:pr-8">
           <div className="max-w-lg mx-auto lg:mx-0">

@@ -12,7 +12,7 @@ const Index: NextPage = () => {
         <title>{clientInfo.name}</title>
         <meta
           name="description"
-          content="We build custom websites for small business owners without upfront expenses."
+          content="I build custom websites for small business owners without upfront expenses."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

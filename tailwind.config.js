@@ -8,7 +8,15 @@ module.exports = {
     './page-sections/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      saturate: {
+        25: '.25',
+        75: '.75',
+      },
+      scale: {
+        60: '.60',
+      },
+    },
     colors: {
       // Colors you want to add go here
       transparent: 'transparent',
@@ -18,6 +26,7 @@ module.exports = {
       white: colors.white,
       yellow: colors.yellow,
       red: colors.red,
+      green: colors.green,
     },
     screens: {
       xs: '479px',
