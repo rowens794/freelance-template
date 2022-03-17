@@ -108,9 +108,9 @@ const Circle = ({
     textColor = 'text-yellow-600'
   }
   if (count > 90) {
-    stroke = 'stroke-green-600'
-    bgColor = 'bg-green-100'
-    textColor = 'text-green-600'
+    stroke = 'stroke-primary-600'
+    bgColor = 'bg-primary-100'
+    textColor = 'text-primary-600'
   }
 
   return (
@@ -119,7 +119,7 @@ const Circle = ({
         className={`${styles.square} ${bgColor} m-auto -translate-x-3 scale-75 transform xs:translate-x-0 sm:scale-100`}
       >
         <p
-          className={`my-[19px] w-[100] text-center text-[42px] text-white ${textColor}`}
+          className={`my-[19px] w-[100] text-center text-[42px] text-white ${textColor} `}
         >
           {count}
         </p>
