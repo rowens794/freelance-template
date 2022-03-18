@@ -158,7 +158,7 @@ export default function index({}: Props) {
 
   return (
     <div
-      className="grid max-w-md grid-cols-2 px-4 mx-auto text-left h-96 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
+      className="grid max-w-md grid-cols-1 gap-6 px-4 mx-auto text-left sm:max-w-3xl sm:px-6 md:grid-cols-2 md:gap-0 lg:max-w-7xl lg:px-8"
       ref={currentElement}
     >
       {/* Column 1 */}
@@ -170,7 +170,7 @@ export default function index({}: Props) {
           What I Do
         </p>
         <p className="mx-auto mt-5 text-xl text-gray-500 ">
-          You have problems, I know that, I make them go away.
+          You have problems. I understand that and I make them go away.
         </p>
       </div>
 
