@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
+import Image from 'next/image'
 import useVisibility from '../../../hooks/isVisible'
+import { ChatAlt2Icon } from '@heroicons/react/outline'
 
 type Props = {}
 
@@ -52,15 +54,11 @@ let messages: {
     speaker: 'You',
   },
   {
-    msg: `Design is a tough one.  First, it's important to focus on usability.  Second, focus on tone - set an atmosphere prospects expect when dealing with a wealth advisor.  Third, makes sure that it's easy to parse the content of your page with a quick glance.`,
+    msg: `Design is a tough one.  First, it's important to focus on usability.`,
     speaker: 'Ryan',
   },
   {
     msg: `Second, focus on tone - set an atmosphere prospects expect when dealing with a wealth advisor.`,
-    speaker: 'Ryan',
-  },
-  {
-    msg: `Third, make sure that it's easy to parse the content of your page with a quick glance.`,
     speaker: 'Ryan',
   },
   {
@@ -176,6 +174,11 @@ export default function index({}: Props) {
         <p className="mx-auto mt-5 text-xl text-center text-gray-500 md:text-left ">
           You have problems. I understand that and I make them go away.
         </p>
+        <div className="relative hidden w-32 h-32 my-8 overflow-hidden rounded-lg drop-shadow-md md:block">
+          <Image src="/images/headshot.jpeg" height={200} width={200} />
+          <ChatAlt2Icon className="absolute z-30 w-8 h-8 bottom-1 right-1 text-primary-700" />
+          <div className="absolute bottom-0 right-0 z-20 w-24 h-24 translate-x-12 translate-y-12 bg-gray-100 rounded-full"></div>
+        </div>
       </div>
 
       {/* Column 2 */}

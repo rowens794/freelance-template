@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               icon: BadgeCheckIcon,
             },
             {
-              name: 'Track Results',
+              name: 'Built-in Analytics',
               description:
                 'Track traffic and conversions on your site so you know exactly how well it is performing.',
               icon: ChartPieIcon,
