@@ -15,6 +15,7 @@ import Content from '../page-sections/content/written-by-a-pro'
 import Portfolio from '../page-sections/portfolio/standard-portfolio'
 import AboutMe from '../page-sections/team/about-me'
 import LightHouse from '../page-sections/lighthouse'
+import WhatYouWant from '../page-sections/custom/what-you-want'
 // import Newsletter from '../page-sections/newletter/simple-with-description'
 
 const Home: NextPage = () => {
@@ -36,7 +37,7 @@ const Home: NextPage = () => {
           image="/images/hero-mock-hq.jpg"
           alt="Custom built Websites"
           intro="Create an online presence that attracts leads and generates opportunities while you take care of your clients."
-          ctaText="Let's Talk"
+          ctaText="Discuss a Project"
           ctaLink="/contact"
         />
         <FeaturesGrid
@@ -64,6 +65,7 @@ const Home: NextPage = () => {
             },
           ]}
         />
+        <WhatYouWant />
         <Content />
         <LightHouse />
         <PricingPanel />

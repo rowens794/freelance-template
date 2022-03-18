@@ -2,9 +2,11 @@ import { CheckIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 
 let expectionTable = [
-  '60-90 minute kickoff call',
+  '60 minute kickoff call',
   'Up-to a 5 Page Website',
+  '60 minute pre-launch call',
   'Unlimited Edits to the Site',
+  'Google Analytics Configuration',
   'Free Website Hosting',
   'Unlimited Support',
   'Logo & Graphic Design (if needed)',
@@ -255,7 +257,7 @@ const PricingSection = () => {
                         <span className="mt-2 mr-2 text-4xl font-medium">
                           $
                         </span>
-                        <span className="font-extrabold">150</span>
+                        <span className="font-extrabold">300</span>
                       </span>
                       <span className="text-2xl font-medium text-gray-500">
                         /month

@@ -18,7 +18,7 @@ const About: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative">
+      <main className="relative overflow-x-hidden">
         <Heading
           heading="A Website that's A Great Deal for the Customer"
           boldText="A Great Site for $300? What Gives?"

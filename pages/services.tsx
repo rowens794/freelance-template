@@ -14,7 +14,7 @@ import clientInfo from '../data/clientInfo'
 
 const Services: NextPage = () => {
   return (
-    <div className="">
+    <div className="overflow-x-hidden ">
       <Head>
         <title>{clientInfo.name}</title>
         <meta
