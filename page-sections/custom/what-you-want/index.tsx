@@ -90,7 +90,11 @@ export default function index({}: Props) {
 
   //set a variable to keep track of whether the user has scrolled into view
   useEffect(() => {
-    if (isVisible) setHasActivated(true)
+    if (isVisible && !hasActivated) {
+      setHasActivated(true)
+      setInt(1)
+      setMsgHopper([<UserMsg msg={messages[0].msg} key={0} />])
+    }
   }, [isVisible])
 
   useEffect(() => {
@@ -110,7 +114,7 @@ export default function index({}: Props) {
             msg = messages[int - 1].msg
           }
 
-          let ReadingRateWPM = 150
+          let ReadingRateWPM = 200
           let words = msg.split(' ').length
           let secondsElapsed = (words / ReadingRateWPM) * 60
           let millisecondsElapsed = Math.round(secondsElapsed * 1000)

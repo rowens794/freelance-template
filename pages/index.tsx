@@ -42,7 +42,7 @@ const Home: NextPage = () => {
         />
         <FeaturesGrid
           secTitle="What To Expect"
-          secDesc="A Site that Ranks & Converts"
+          secDesc="A Site Built to Rank & Convert"
           secParagraph="Think of your website as a member of your team.  Always ready to answer any questions that a prospect has and deliver that prospect to an advisor."
           features={[
             {
