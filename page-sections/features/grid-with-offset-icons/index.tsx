@@ -29,7 +29,7 @@ export default function Index({
       id="features"
       className="relative py-16 bg-white sm:py-32 lg:py-44"
     >
-      <div className="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="max-w-md px-4 py-16 mx-auto text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:py-0 lg:px-8">
         <h2 className="text-base font-semibold tracking-wider uppercase text-primary-600">
           {secTitle}
         </h2>

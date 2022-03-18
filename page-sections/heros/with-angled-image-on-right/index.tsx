@@ -37,7 +37,7 @@ export default function index({
   })
 
   return (
-    <div className="relative z-10 pt-12 overflow-hidden bg-white lg:pt-0">
+    <section className="relative z-10 py-16 overflow-hidden bg-white lg:py-0">
       <div className="mx-auto max-w-7xl">
         <div className="relative z-10 pt-24 pb-8 bg-white sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
           <svg
@@ -52,7 +52,7 @@ export default function index({
 
           <main className="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-900 sm:text-5xl md:text-6xl lg:text-left">
                 <span className="block xl:inline">{heading1}</span>{' '}
                 <span className="block text-primary-600 xl:inline">
                   {heading2}
@@ -96,6 +96,6 @@ export default function index({
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

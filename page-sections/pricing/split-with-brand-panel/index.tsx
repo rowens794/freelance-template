@@ -52,7 +52,7 @@ export default function Example() {
 
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-2 lg:px-8">
         <div className="px-4 py-16 bg-white sm:py-24 sm:px-6 lg:px-0 lg:pr-8">
-          <div className="max-w-lg mx-auto lg:mx-0">
+          <div className="max-w-lg mx-auto text-center md:text-left lg:mx-0">
             <h2 className="text-base font-semibold tracking-wide uppercase text-primary-600">
               Full-featured
             </h2>
@@ -69,11 +69,11 @@ export default function Example() {
                         aria-hidden="true"
                       />
                     </div>
-                    <p className="ml-16 text-lg font-medium leading-6 text-gray-900">
+                    <p className="ml-16 text-lg font-medium leading-6 text-left text-gray-900">
                       {feature.name}
                     </p>
                   </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
+                  <dd className="mt-2 ml-16 text-base text-left text-gray-500">
                     {feature.description}
                   </dd>
                 </div>
@@ -135,7 +135,7 @@ export default function Example() {
             </ul>
             <Link href="/contact">
               <a className="flex items-center justify-center w-full px-8 py-4 text-lg font-medium leading-6 bg-white border border-transparent rounded-md text-primary-600 hover:bg-primary-50 md:px-10">
-                Get started today
+                Discuss a Project
               </a>
             </Link>
           </div>

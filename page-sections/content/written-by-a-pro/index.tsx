@@ -11,7 +11,7 @@ export default function Example() {
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-2 lg:px-8">
         {/* Left Hand Side */}
         <div className="relative px-4 py-8 bg-gray-100 sm:px-6 lg:bg-transparent lg:py-16 lg:px-0 lg:pr-8 ">
-          <div className="max-w-lg mx-auto top-1/2 lg:absolute lg:mx-0 lg:-translate-y-1/2 lg:transform">
+          <div className="max-w-lg mx-auto text-center top-1/2 md:text-left lg:absolute lg:mx-0 lg:-translate-y-1/2 lg:transform">
             <h2 className="text-base font-semibold tracking-wide uppercase text-primary-700">
               Your Story Told by an Industry Pro
             </h2>
@@ -25,10 +25,10 @@ export default function Example() {
         </div>
 
         {/* Right Hand Side */}
-        <div className="px-4 py-8 bg-gray-100 sm:px-6 lg:flex lg:items-center lg:justify-end lg:bg-transparent lg:bg-none lg:py-16 lg:px-0 lg:pl-8">
+        <div className="px-4 bg-gray-100 sm:px-6 lg:flex lg:items-center lg:justify-end lg:bg-transparent lg:bg-none lg:py-16 lg:px-0 lg:pl-8">
           <div className="w-full max-w-lg mx-auto space-y-8 lg:mx-0">
             <div className="relative text-gray-700 ">
-              <h3 className="text-xl font-bold text-gray-800">
+              <h3 className="hidden text-xl font-bold text-gray-800 lg:block">
                 Copywriting by an Industry Insider
               </h3>
               <p className="my-4 ">

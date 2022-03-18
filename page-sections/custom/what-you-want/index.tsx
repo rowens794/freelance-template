@@ -158,18 +158,18 @@ export default function index({}: Props) {
 
   return (
     <div
-      className="grid max-w-md grid-cols-1 gap-6 px-4 mx-auto text-left sm:max-w-3xl sm:px-6 md:grid-cols-2 md:gap-0 lg:max-w-7xl lg:px-8"
+      className="grid max-w-md grid-cols-1 gap-6 px-4 py-16 mx-auto text-left sm:max-w-3xl sm:px-6 md:grid-cols-2 md:gap-0 lg:max-w-4xl lg:py-0 lg:px-8"
       ref={currentElement}
     >
       {/* Column 1 */}
       <div>
-        <h2 className="text-base font-semibold tracking-wider uppercase text-primary-600">
+        <h2 className="text-base font-semibold tracking-wider text-center uppercase text-primary-600 md:text-left">
           What You Want
         </h2>
-        <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <p className="mt-2 text-3xl font-extrabold tracking-tight text-center text-gray-900 sm:text-4xl md:text-left">
           What I Do
         </p>
-        <p className="mx-auto mt-5 text-xl text-gray-500 ">
+        <p className="mx-auto mt-5 text-xl text-center text-gray-500 md:text-left ">
           You have problems. I understand that and I make them go away.
         </p>
       </div>
