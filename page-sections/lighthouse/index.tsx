@@ -36,7 +36,7 @@ export default function Index({}: Props) {
           </a>
           . Every site that I build performs flawlessly.
         </p>
-        <div className="mx-auto mt-6 grid w-full transform grid-cols-4 p-4  sm:mt-12 sm:w-[550px]">
+        <div className="grid w-full max-w-md grid-cols-4 p-4 m-auto mx-auto mt-6 transform sm:mt-12 sm:max-w-lg">
           <Circle
             isVisible={hasActivated}
             desc="Performance"
@@ -114,7 +114,7 @@ const Circle = ({
   }
 
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <div
         className={`${styles.square} ${bgColor} m-auto -translate-x-3 scale-75 transform xs:translate-x-0 sm:scale-100`}
       >
@@ -131,11 +131,14 @@ const Circle = ({
             className={`${styles.rectElem} ${stroke} m-auto `}
           />
         </svg>
+
+        <p className="w-full pt-2 mt-4 text-sm font-bold text-center text-gray-600 xs:hidden">
+          {descXS}
+        </p>
+        <p className="hidden pt-2 mt-2 text-sm font-bold text-center text-gray-700 xs:block sm:mt-0 md:pt-2 ">
+          {desc}
+        </p>
       </div>
-      <p className="hidden pt-2 text-sm text-center xs:block sm:text-base">
-        {desc}
-      </p>
-      <p className="pt-2 text-sm text-center xs:hidden">{descXS}</p>
     </div>
   )
 }

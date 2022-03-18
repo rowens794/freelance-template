@@ -16,7 +16,7 @@ let messages: {
     speaker: 'Ryan',
   },
   {
-    msg: `maybe target calls to action that focus on key activities like "review retirement readiness" or "is my portfolio diversified"`,
+    msg: `target calls to action that focus on key activities like "review retirement readiness" or "is my portfolio diversified"`,
     speaker: 'Ryan',
   },
   {
@@ -229,10 +229,10 @@ const RyanMsg = ({ msg }: { msg: string }) => {
 const UserTyping = () => {
   return (
     <div className="w-full my-2">
-      <div className="relative grid float-left grid-cols-3 px-2 py-3 bg-gray-200 rounded-full animate-pulse">
-        <div className="mx-0.5 h-2 w-2 rounded-full bg-white" />
-        <div className="mx-0.5 h-2 w-2 rounded-full bg-white" />
-        <div className="mx-0.5 h-2 w-2 rounded-full bg-white" />
+      <div className="relative grid float-left grid-cols-3 px-2 py-3 bg-gray-200 rounded-full ">
+        <div className="mx-0.5 h-2 w-2 animate-pulse rounded-full bg-white" />
+        <div className="mx-0.5 h-2 w-2 animate-pulse rounded-full bg-white" />
+        <div className="mx-0.5 h-2 w-2 animate-pulse rounded-full bg-white" />
       </div>
     </div>
   )
@@ -241,10 +241,10 @@ const UserTyping = () => {
 const RyanTyping = () => {
   return (
     <div className="w-full my-2 ">
-      <div className="relative grid float-right grid-cols-3 px-2 py-3 rounded-full animate-pulse bg-primary-600">
-        <div className="mx-0.5 h-2 w-2 rounded-full bg-primary-300" />
-        <div className="mx-0.5 h-2 w-2 rounded-full bg-primary-300" />
-        <div className="mx-0.5 h-2 w-2 rounded-full bg-primary-300" />
+      <div className="relative grid float-right grid-cols-3 px-2 py-3 rounded-full bg-primary-600">
+        <div className="mx-0.5 h-2 w-2 animate-pulse rounded-full bg-primary-300" />
+        <div className="mx-0.5 h-2 w-2 animate-pulse rounded-full bg-primary-300" />
+        <div className="mx-0.5 h-2 w-2 animate-pulse rounded-full bg-primary-300" />
       </div>
     </div>
   )
