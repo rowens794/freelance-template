@@ -44,7 +44,7 @@ export default function index({}: Props) {
           method="POST"
           data-netlify="true"
           action="/contact/success"
-          className="grid float-right grid-cols-1 gap-2 px-4 py-8 bg-gray-200 rounded-md shadow-lg w-80"
+          className="grid float-right grid-cols-1 gap-2 px-4 py-8 bg-gray-200 rounded-md shadow-lg w-96"
         >
           <input
             type="hidden"

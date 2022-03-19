@@ -32,11 +32,6 @@ export default function index({}: Props) {
       {/* Column 2 */}
       <div className="h-full ">
         <div className="relative w-full h-full mt-8 overflow-hidden text-center rounded-sm drop-shadow-lg">
-          {/* <Image
-            src="https://via.placeholder.com/400x400/0A91B1/000"
-            width={400}
-            height={400}
-          /> */}
           <img src="/images/site-review.svg" className="" />
         </div>
       </div>
