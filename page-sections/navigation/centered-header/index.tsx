@@ -69,7 +69,7 @@ export default function Index() {
               .map((item, i) => {
                 return (
                   <Link href={item.href} key={i}>
-                    <a className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm whitespace-nowrap bg-primary-600 hover:bg-primary-700">
+                    <a className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium bg-white border-2 rounded-md shadow-sm whitespace-nowrap border-primary-700 text-primary-700 hover:bg-primary-100">
                       {item.title}
                     </a>
                   </Link>
@@ -144,7 +144,7 @@ export default function Index() {
                   .map((item, i) => {
                     return (
                       <Link href={item.href} key={i}>
-                        <a className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm whitespace-nowrap bg-primary-600 hover:bg-primary-700">
+                        <a className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-medium bg-white border-2 rounded-md shadow-sm whitespace-nowrap border-primary-700 text-primary-700 hover:bg-primary-200">
                           {item.title}
                         </a>
                       </Link>

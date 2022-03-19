@@ -32,8 +32,11 @@ export default function Index({
         </p>
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {features.map((feature) => (
-              <div key={feature.name} className="pt-6 ">
+            {features.map((feature, i) => (
+              <div
+                key={feature.name}
+                className={`pt-6 ${i === 3 ? 'lg:hidden' : ''}`}
+              >
                 <div className="flow-root px-3 pb-4 bg-gray-100 border-t-4 rounded-lg h-44 border-primary-800 drop-shadow-lg sm:h-48 sm:px-6 sm:pb-8">
                   <div className="-mt-6">
                     <div>

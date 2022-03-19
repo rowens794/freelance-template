@@ -4,6 +4,7 @@ import {
   SearchCircleIcon,
   BadgeCheckIcon,
   ChartPieIcon,
+  PhoneIcon,
 } from '@heroicons/react/outline'
 
 import clientInfo from '../data/clientInfo'
@@ -45,22 +46,28 @@ const Home: NextPage = () => {
           secParagraph="Think of your website as a member of your team.  Always ready to answer any questions that a prospect has and deliver that prospect to an advisor."
           features={[
             {
-              name: 'Built for SEO',
+              name: 'Capture Organic Traffic',
               description:
                 'Match the search intent of your future customers so that google ranks you highly.',
               icon: SearchCircleIcon,
             },
             {
-              name: 'Conversion Focus',
+              name: 'Built to Get Leads',
               description:
                 'Make it easy for visitors to take the first step into your sales process.',
               icon: BadgeCheckIcon,
             },
             {
-              name: 'Built-in Analytics',
+              name: 'Track w/ Analytics',
               description:
-                'Track traffic and conversions on your site so you know exactly how well it is performing.',
+                'Track traffic and conversions on your site, so you know exactly how well it is performing.',
               icon: ChartPieIcon,
+            },
+            {
+              name: 'Ongoing Support',
+              description:
+                'Every project comes bundled long-term support and direct access to my cell phone.',
+              icon: PhoneIcon,
             },
           ]}
         />
