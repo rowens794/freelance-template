@@ -10,26 +10,30 @@ export default function Example() {
               Hi, I'm Ryan
             </h2>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
-              I've spent more than a decade working as an investment advisor,
-              serving high-net-worth and institutional clients. During this part
-              of my career I worked closely with clients and prospect and
-              developed a deep understanding of the issues that drove them to
-              make decisions. When I left investment management I knew I wanted
-              to help investment advisors deliver their right message to their
+              I've spent over a decade working as an investment advisor, serving
+              high-net-worth and institutional clients. During this part of my
+              career, I worked closely with clients and prospects and developed
+              a deep understanding of the issues that drove them to make
+              decisions. When I left investment management, I knew I wanted to
+              help investment advisors deliver the right message to their
               current and future customers.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
               As I looked out at the market for web development solutions for
-              investment advisors for I saw a slew of low quality agencies that
-              slap an advisor's logo on a slow, poorly written template with no
-              support and charge hundreds of dollars a month. This struck as a
-              very poor value proposition.
+              investment advisors, I saw a slew of low-quality agencies that
+              slapped an advisor's logo on a slow, poorly written template with
+              no support and charge hundreds of dollars a month. This struck as
+              a very poor value proposition.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
               There was, of course, another side to the market filled with
-              highed end agencies that produce beautiful high quality sites, but
-              charge 5 figures for developement. This investment is hard to
-              justify for small practices.
+              high-end agencies that produce beautiful high-quality sites but
+              charge five figures for development. This investment is hard to
+              justify for small practices. As a one-man shop, I serve as a
+              bridge between the two established models. I produce high-quality
+              custom work for my customers, but because I don't have the
+              overhead of a full-service agency, I can do so at a price that
+              makes sense for small practices.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
               As a one man shop I serve as bridge between the two established

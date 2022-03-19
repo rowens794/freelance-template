@@ -32,19 +32,19 @@ export default function Example() {
                 Copywriting by an Industry Insider
               </h3>
               <p className="my-4 ">
-                I've spent over 10 years working in the investment management
+                I've spent over ten years working in the investment management
                 industry. I've managed over $2 billion, led investment teams,
-                and met with hundreads of clients.
+                and met with hundreds of clients.
               </p>
 
               <p className="my-4 ">
                 I know how to communicate the value of professional advisory
-                services to prospective customers and I want to deliver that
+                services to prospective customers, and I want to deliver that
                 message for your practice.
               </p>
 
               <p className="my-4 ">
-                Because I was raised in the industry, you not only get more
+                Because I grew up in the industry, you not only get more
                 compelling copy, but you spend less time hand-holding your
                 website developer to ensure you get the results you want.
               </p>
