@@ -21,13 +21,13 @@ export default function index({}: Props) {
             prospective clients in their market.
           </p>
           <p className="my-6 text-left text-gray-500 xs:text-lg sm:mx-auto sm:mt-5 sm:max-w-lg md:mt-5 md:text-xl lg:mx-0">
-            I want to help you understand exactly what's going right{' '}
-            <span className="underline">and</span> wrong with yours.
+            I want to help you understand exactly what's going right and wrong
+            with yours.
           </p>
           <p className="my-6 text-left text-gray-500 xs:text-lg sm:mx-auto sm:mt-5 sm:max-w-lg md:mt-5 md:text-xl lg:mx-0">
-            Fill out the form to the right and{' '}
+            Fill out the form to the right, and{' '}
             <span className="font-semibold text-gray-600">
-              I'll record a 30 minute website evaluation video
+              I'll record a 30-minute website evaluation video
             </span>{' '}
             for you where I'll review your design, SEO, site performance, and
             other aspects of your website.

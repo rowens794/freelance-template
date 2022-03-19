@@ -5,7 +5,7 @@ const posts = [
     title: 'Intellispect',
     category: 'Web Application',
     description:
-      "Intelispect is a Software as a Service business that needed a front and backend that would help them display information on more than 1.5 million nonprofit organizations in the US.  There site built using some of the latest web technologies to ensure it's fast, stable, and easy to use.",
+      "Intelispect is a Software as a Service business that needed a front and backend that would help them display information on more than 1.5 million nonprofit organizations in the US. They're site built using some of the latest web technologies to ensure that it's fast, stable, and easy to use.",
     imageUrl: '/images/intellispect.jpg',
     buttonText: 'Visit Intellispect',
     siteLink: 'https://www.intellispect.co',
@@ -15,7 +15,7 @@ const posts = [
     title: 'Wellington Asset Management',
     category: 'Marketing Site',
     description:
-      'Wellington is a brochure site for an Investment Management company that helps individuals, companies, and nonprofit organizations manage & invest financial assets so that they can meet their long term goals.',
+      'Wellington is a brochure site for an Investment Management company that helps individuals, companies, and nonprofit organizations manage & invest financial assets so that they can meet their long-term goals.',
     imageUrl: '/images/Wellington.jpg',
     buttonText: 'Visit Wellington',
     siteLink: 'https://demo-ria-site.netlify.app/',
@@ -25,7 +25,7 @@ const posts = [
     title: "Allison's Tax & Financial Services",
     category: 'Marketing Site',
     description:
-      "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
+      "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech-savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
     imageUrl: '/images/tax-site-mock.jpg',
     buttonText: "Visit Allison's",
     siteLink: 'https://tax-site-staging.netlify.app/',

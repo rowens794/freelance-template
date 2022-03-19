@@ -16,8 +16,8 @@ export default function index({}: Props) {
           A 30 Minute Website Review Video
         </p>
         <p className="mx-auto mt-5 text-left text-gray-500 lg:text-lg ">
-          I'll put together a 30 minute video review that you can watch when
-          it's convienient for you.
+          I'll put together a 30-minute video review that you can watch when
+          it's convenient for you.
         </p>
         <p className="mx-auto mt-5 text-left text-gray-500 lg:text-lg ">
           The video will contain both the issues I've identified and

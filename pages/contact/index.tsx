@@ -21,8 +21,7 @@ const Index: NextPage = () => {
         <Heading
           heading="Want to Chat?"
           boldText="Let's Start a Conversation."
-          bodyText="Feel Free to call or email me. I pickup on the first ring, and
-            respond to emails within 30 minutes."
+          bodyText="Feel Free to call or email me. I pick up on the first ring and respond to emails within 30 minutes."
         />
         <Contact />
       </main>

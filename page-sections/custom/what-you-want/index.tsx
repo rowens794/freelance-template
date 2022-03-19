@@ -172,7 +172,7 @@ export default function index({}: Props) {
           What I Do
         </p>
         <p className="mx-auto mt-5 text-center text-gray-500 sm:text-lg md:text-left ">
-          You have problems. I understand that and I make them go away.
+          You have problems. I understand that, and I make them go away.
         </p>
         <div className="relative hidden w-32 h-32 my-8 overflow-hidden rounded-lg drop-shadow-md md:block">
           <Image src="/images/headshot.jpeg" height={200} width={200} />

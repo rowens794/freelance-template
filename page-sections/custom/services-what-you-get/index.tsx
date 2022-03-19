@@ -2,9 +2,9 @@ import { CheckIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 
 let expectionTable = [
-  '60 minute kickoff call',
+  '60-minute kickoff call',
   'Up-to a 5 Page Website',
-  '60 minute pre-launch call',
+  '60-minute pre-launch call',
   'Unlimited Edits to the Site',
   'Google Analytics Configuration',
   'Free Website Hosting',
@@ -129,7 +129,7 @@ export default function Index() {
             </span>
           </h1>
           <p className="mt-8 text-xl leading-8 text-gray-500">
-            Every engagement is unique and I will adapt the project to ensure
+            Every engagement is unique, and I will adapt the project to ensure
             your needs are met. However, what you should expect when you work
             with me is the following:
           </p>

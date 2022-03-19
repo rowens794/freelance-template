@@ -40,7 +40,7 @@ const Home: NextPage = () => {
             {
               name: 'Site Design',
               description:
-                'Is your site styled consistently, is it easy to understand, does it convey an appropriote image for your practice.',
+                'Is your site styled consistently, is it easy to understand, does it convey an appropriate image for your practice.',
               icon: ColorSwatchIcon,
             },
             {
@@ -51,24 +51,24 @@ const Home: NextPage = () => {
             {
               name: 'On-Page SEO',
               description:
-                'Are you taking the right steps to make sure your site is interpreted correctly by search engines?',
+                'Are you taking the proper steps to ensure your site is interpreted correctly by search engines?',
               icon: DocumentSearchIcon,
             },
             {
               name: 'Market Analysis',
               description:
-                'Are you targeting keywords that your target customers are actually searching for?  If so, are you ranking for them?',
+                'Are you targeting keywords that your target customers are searching for? If so, are you ranking for them?',
               icon: GlobeIcon,
             },
             {
               name: 'Calls To Action',
               description:
-                'Are your visitors being asked to take an action? Are they overwhelmed with choices? Is your offer compelling?',
+                'Are your visitors being asked to take action? Are they overwhelmed with choices? Is your offer compelling?',
               icon: SpeakerphoneIcon,
             },
             {
               name: 'Device Responsiveness',
-              description: `Users access sites across devices and screen sizes. If you don't deliver a great experience your visitors will leave.`,
+              description: `Users access sites across devices and screen sizes. If you don't deliver an exceptional experience, your visitors will leave.`,
               icon: DeviceMobileIcon,
             },
           ]}

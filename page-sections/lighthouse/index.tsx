@@ -19,14 +19,14 @@ export default function Index({}: Props) {
     >
       <div className="max-w-5xl m-auto my-12 text-center" ref={currentElement}>
         <h2 className="text-base font-semibold tracking-wider uppercase text-primary-600">
-          Core Web Vitals Perfection
+          A Website that Screams Performance
         </h2>
         <p className="px-4 mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          Deliver a Delightful Experience
+          Deliver a Delightful User Experience
         </p>
         <p className="px-4 mx-auto mt-5 text-gray-500 max-w-prose sm:text-lg">
-          Google makes it easy to understand how your website performs across 4
-          major categories using{' '}
+          Google makes it easy to understand how your website performs across
+          four major categories using{' '}
           <a
             href="https://huckabuy.com/2021/02/01/how-to-use-googles-lighthouse-report-for-technical-seo/"
             target="_blank"

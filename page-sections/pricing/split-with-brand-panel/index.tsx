@@ -13,19 +13,19 @@ const features = [
     name: '5 Page Site',
     icon: BookOpenIcon,
     description:
-      'Convey all of the information your customers need, quickly and effectively.  If you need additional pages, I can provide a quote for the extra work.',
+      'Convey all of the information your customers need quickly and effectively. If you need additional pages, I can provide a quote for the extra work.',
   },
   {
     name: 'Unlimited Edits',
     icon: PencilAltIcon,
     description:
-      "Any time there is a change to your business that needs to be reflected on your site, just give me a call and it's done - same day.",
+      "Any time there is a change to your business that needs to be reflected on your site, just give me a call, and it's done - same day",
   },
   {
     name: 'Custom Design/Development',
     icon: ColorSwatchIcon,
     description:
-      "I don't build cookie cutter sites.  Every site I build is hand coded to ensure the best performance, reliabilty, and conversion potential.",
+      "I don't build cookie-cutter sites. I hand code every site I make to ensure the best performance, reliability, and conversion potential.",
   },
   {
     name: 'Google Analytics',
