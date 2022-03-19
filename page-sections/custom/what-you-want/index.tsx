@@ -171,7 +171,7 @@ export default function index({}: Props) {
         <p className="mt-2 text-3xl font-extrabold tracking-tight text-center text-gray-900 sm:text-4xl md:text-left">
           What I Do
         </p>
-        <p className="mx-auto mt-5 text-xl text-center text-gray-500 md:text-left ">
+        <p className="mx-auto mt-5 text-center text-gray-500 sm:text-lg md:text-left ">
           You have problems. I understand that and I make them go away.
         </p>
         <div className="relative hidden w-32 h-32 my-8 overflow-hidden rounded-lg drop-shadow-md md:block">

@@ -1,12 +1,3 @@
-import {
-  CloudUploadIcon,
-  CogIcon,
-  LockClosedIcon,
-  RefreshIcon,
-  ServerIcon,
-  ShieldCheckIcon,
-} from '@heroicons/react/outline'
-
 interface PageData {
   secTitle: string
   secDesc: string
@@ -36,7 +27,7 @@ export default function Index({
         <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           {secDesc}
         </p>
-        <p className="mx-auto mt-5 text-xl text-gray-500 max-w-prose">
+        <p className="mx-auto mt-5 text-gray-500 max-w-prose sm:text-lg">
           {secParagraph}
         </p>
         <div className="mt-12">

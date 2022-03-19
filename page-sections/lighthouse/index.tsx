@@ -24,7 +24,7 @@ export default function Index({}: Props) {
         <p className="px-4 mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           Deliver a Delightful Experience
         </p>
-        <p className="px-4 mx-auto mt-5 text-xl text-gray-500 max-w-prose">
+        <p className="px-4 mx-auto mt-5 text-gray-500 max-w-prose sm:text-lg">
           Google makes it easy to understand how your website performs across 4
           major categories using{' '}
           <a

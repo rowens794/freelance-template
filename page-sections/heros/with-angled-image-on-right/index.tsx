@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 
 interface PageData {
   heading1: string
@@ -58,11 +57,11 @@ export default function index({
                   {heading2}
                 </span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+              <p className="my-6 text-lg text-center text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl md:mt-5 md:text-xl lg:mx-0 lg:text-left">
                 {intro}
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
+              <div className="mt-12 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                <div className="rounded-md shadow ">
                   <Link href={ctaLink}>
                     <a className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-primary-600 hover:bg-primary-700 md:py-4 md:px-10 md:text-lg">
                       {ctaText}

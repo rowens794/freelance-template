@@ -47,7 +47,7 @@ export default function Example() {
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Some of My Work
           </h2>
-          <p className="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">
+          <p className="max-w-2xl mx-auto mt-3 text-gray-500 sm:mt-4 sm:text-lg">
             Take a look at the work I've done to thrill my clients.
           </p>
         </div>
