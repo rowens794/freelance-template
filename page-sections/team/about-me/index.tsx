@@ -29,16 +29,12 @@ export default function Example() {
               There was, of course, another side to the market filled with
               high-end agencies that produce beautiful high-quality sites but
               charge five figures for development. This investment is hard to
-              justify for small practices. As a one-man shop, I serve as a
-              bridge between the two established models. I produce high-quality
-              custom work for my customers, but because I don't have the
-              overhead of a full-service agency, I can do so at a price that
-              makes sense for small practices.
+              justify for small practices.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
-              As a one man shop I serve as bridge between the two established
-              models. I produce high quality custom work for my customers, but
-              becuase I don't have the overhead of a full service agency, I can
+              As a one-man shop, I serve as a bridge between the two established
+              models. I produce high-quality custom work for my customers, but
+              because I don't have the overhead of a full-service agency, I can
               do so at a price that makes sense for small practices.
             </p>
           </div>
