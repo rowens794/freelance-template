@@ -40,7 +40,7 @@ export default function index({}: Props) {
 
       <div className="flex items-center justify-center lg:justify-end">
         <form
-          name="ContactPage"
+          name="SiteReview"
           method="POST"
           data-netlify="true"
           action="/contact/success"
@@ -49,7 +49,7 @@ export default function index({}: Props) {
           <input
             type="hidden"
             name="form-name"
-            value="WebsiteReview"
+            value="SiteReview"
             className="grid grid-cols-1 gap-y-6"
           />
           <div>

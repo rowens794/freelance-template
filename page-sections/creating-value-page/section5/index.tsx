@@ -159,6 +159,7 @@ export default function Example(props: Props) {
                   width={500}
                   height={75}
                   className="block"
+                  alt="Paid traffic for financial advisors is robust"
                 />
                 <p className="m-0 text-xs italic font-light text-right text-gray-500">
                   source:{' '}
@@ -196,6 +197,7 @@ export default function Example(props: Props) {
                   width={600}
                   height={370}
                   className="block"
+                  alt="Sample financial advisor ad run on Google"
                 />
                 <p className="m-0 text-xs italic font-light text-right text-gray-500">
                   source:{' '}

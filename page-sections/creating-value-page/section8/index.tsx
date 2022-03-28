@@ -154,6 +154,7 @@ export default function Example(props: Props) {
                   width={960}
                   height={500}
                   className="relative z-10 opacity-80"
+                  alt="mobile search traffic is now equal to desktop"
                 />
                 <p className="m-0 text-xs italic font-light text-right text-gray-500">
                   source:{' '}

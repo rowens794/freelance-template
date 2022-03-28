@@ -23,7 +23,7 @@ export default function Example() {
                   src="/images/couple-on-website.jpeg"
                   objectFit="cover"
                   layout="fill"
-                  alt=""
+                  alt="Create a great website for your practice"
                   className="relative z-10 object-cover object-center rounded-3xl"
                 />
               </div>

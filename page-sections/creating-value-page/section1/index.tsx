@@ -56,6 +56,7 @@ export default function Example(props: Props) {
                   width={950}
                   height={400}
                   className="relative z-10"
+                  alt="Organic search for financial advisors increasing"
                 />
                 <p className="m-0 text-xs italic font-light text-right text-gray-500">
                   source:{' '}

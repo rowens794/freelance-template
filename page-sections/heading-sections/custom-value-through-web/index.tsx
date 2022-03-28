@@ -17,6 +17,7 @@ export default function Example(props: Props) {
           width={600}
           height={500}
           objectFit="cover"
+          alt="Build a great website for your practice"
           className="z-10 object-right-top rounded-sm shadow-2xl"
         />
       </div>

@@ -175,7 +175,12 @@ export default function index({}: Props) {
           You have problems. I understand that, and I make them go away.
         </p>
         <div className="relative hidden w-32 h-32 my-8 overflow-hidden rounded-lg drop-shadow-md md:block">
-          <Image src="/images/headshot.jpeg" height={200} width={200} />
+          <Image
+            src="/images/headshot.jpeg"
+            height={200}
+            width={200}
+            alt="ryan owens"
+          />
           <ChatAlt2Icon className="absolute z-30 w-8 h-8 bottom-1 right-1 text-primary-700" />
           <div className="absolute bottom-0 right-0 z-20 w-24 h-24 translate-x-12 translate-y-12 bg-gray-100 rounded-full"></div>
         </div>
