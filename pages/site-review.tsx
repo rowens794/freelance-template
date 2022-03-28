@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             },
             {
               name: 'Page Speed',
-              description: `I'll run automated speed tests to understand if it's performing adequately.  Speed is a big factor for both conversions and SEO.`,
+              description: `Speed has become a big factor for both conversions and SEO. To ensure your pages perform, I'll take the through a gantlet of speed tests.`,
               icon: ClockIcon,
             },
             {
@@ -61,13 +61,13 @@ const Home: NextPage = () => {
               icon: GlobeIcon,
             },
             {
-              name: 'Calls To Action',
+              name: 'Compelling CTAs',
               description:
                 'Are your visitors being asked to take action? Are they overwhelmed with choices? Is your offer compelling?',
               icon: SpeakerphoneIcon,
             },
             {
-              name: 'Device Responsiveness',
+              name: 'Responsive Design',
               description: `Users access sites across devices and screen sizes. If you don't deliver an exceptional experience, your visitors will leave.`,
               icon: DeviceMobileIcon,
             },

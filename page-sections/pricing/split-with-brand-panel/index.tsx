@@ -47,7 +47,7 @@ export default function Example() {
   return (
     <section id="pricing" className="relative my-16 bg-white sm:my-24 lg:my-36">
       <div className="absolute inset-0" aria-hidden="true">
-        <div className="absolute inset-y-0 right-0 w-1/2 bg-primary-700" />
+        <div className="absolute inset-y-0 right-0 w-1/2 bg-primary-600 lg:rounded-tl-lg lg:rounded-bl-lg" />
       </div>
 
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-2 lg:px-8">
@@ -81,7 +81,7 @@ export default function Example() {
             </dl>
           </div>
         </div>
-        <div className="px-4 py-16 bg-primary-700 sm:py-24 sm:px-6 lg:flex lg:items-center lg:justify-end lg:bg-none lg:px-0 lg:pl-8">
+        <div className="px-4 py-16 bg-primary-600 sm:py-24 sm:px-6 lg:flex lg:items-center lg:justify-end lg:rounded-tl-lg lg:rounded-bl-lg lg:bg-none lg:px-0 lg:pl-8">
           <div className="w-full max-w-lg mx-auto space-y-8 lg:mx-0">
             <div>
               <h2 className="sr-only">Price</h2>

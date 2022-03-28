@@ -152,7 +152,7 @@ export default function index({}: Props) {
         }, millisecondDelay)
 
         return () => clearInterval(interval2)
-      }, 1500)
+      }, 750)
 
       return () => clearInterval(intervalId) //This is important
     }

@@ -61,7 +61,7 @@ export default function index({
                 {intro}
               </p>
               <div className="mt-12 text-center sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="w-64 m-auto rounded-md shadow md:w-80 lg:m-0">
+                <div className="w-full m-auto rounded-md shadow xs:w-96 lg:m-0">
                   <Link href={ctaLink}>
                     <a className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-primary-600 hover:bg-primary-700 md:py-4 md:px-10 md:text-lg">
                       {ctaText}

@@ -35,7 +35,9 @@ export default function Index({
             {features.map((feature, i) => (
               <div
                 key={feature.name}
-                className={`pt-6 ${i === 3 ? 'lg:hidden' : ''}`}
+                className={`pt-6 ${
+                  i === 3 && features.length === 4 ? 'lg:hidden' : ''
+                }`}
               >
                 <div className="flow-root px-3 pb-4 bg-gray-100 border-t-4 rounded-lg h-44 border-primary-800 drop-shadow-lg sm:h-48 sm:px-6 sm:pb-8">
                   <div className="-mt-6">

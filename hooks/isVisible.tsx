@@ -9,7 +9,8 @@ import throttle from 'lodash.throttle'
  */
 export default function useVisibility<Element extends HTMLElement>(
   offset = 100,
-  throttleMilliseconds = 100
+  throttleMilliseconds = 100,
+  element = 0
 ): [Boolean, React.RefObject<Element>] {
   const [isVisible, setIsVisible] = useState(false)
   const currentElement = useRef<any>()
@@ -19,8 +20,13 @@ export default function useVisibility<Element extends HTMLElement>(
       setIsVisible(false)
       return
     }
+    const target = 100
     const top = currentElement.current.getBoundingClientRect().top
-    setIsVisible(top + offset >= 0 && top - offset <= window.innerHeight)
+
+    setIsVisible(
+      Math.round(top + offset) <= target &&
+        Math.round(top - offset) <= window.innerHeight
+    )
   }, throttleMilliseconds)
 
   useEffect(() => {
