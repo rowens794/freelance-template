@@ -13,7 +13,7 @@ export default function Example(props: Props) {
         <div className="absolute z-30 rounded-md -top-12 -right-8 h-7 w-7 bg-primary-50 lg:-top-2 lg:right-7 lg:h-16 lg:w-16"></div>
         <div className="absolute z-20 w-5 h-5 rounded-md top-2 right-2 bg-primary-400 lg:top-10 lg:-right-2 lg:h-12 lg:w-12"></div>
         <Image
-          src={'/images/couple-on-website.jpeg'}
+          src={'/images/couple-on-website-sm.jpg'}
           width={600}
           height={500}
           objectFit="cover"
