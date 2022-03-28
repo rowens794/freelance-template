@@ -32,7 +32,7 @@ const pageNav = [
     icon: NewspaperIcon,
   },
   {
-    title: 'Discuss a Project',
+    title: 'Call / Email Me',
     href: '/contact',
     type: 'CTA',
     icon: PhoneIcon,

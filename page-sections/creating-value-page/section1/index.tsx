@@ -12,7 +12,7 @@ export default function Example(props: Props) {
               Getting Started
             </span>
             <h2 className="mt-2 text-2xl font-bold leading-8 tracking-tight text-gray-700 sm:text-4xl">
-              An Introduction to the Web Properties for Financial Advisors
+              An Introduction to Web Properties for Financial Advisors
             </h2>
           </div>
         </div>

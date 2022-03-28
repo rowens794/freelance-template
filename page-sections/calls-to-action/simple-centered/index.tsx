@@ -16,9 +16,11 @@ export default function Index({
   return (
     <div className="bg-white">
       <div className="px-4 py-12 mx-auto text-center max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 className="text-3xl font-extrabold tracking-tight text-primary-900 sm:text-4xl">
           <span className="block">{heading}</span>
-          <span className="block">{subHeading}</span>
+          <span className="block text-xl font-light text-gray-700">
+            {subHeading}
+          </span>
         </h2>
         <div className="flex justify-center mt-8">
           <div className="inline-flex rounded-md shadow">

@@ -1,8 +1,6 @@
-import { useState, useEffect } from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import useVisibility from '../hooks/isVisible'
 import useActiveSection from '../hooks/creatingValueSection'
 
 import Heading from '../page-sections/heading-sections/custom-value-through-web'
@@ -46,10 +44,10 @@ const About: NextPage = () => {
         <Section8 />
         <Section9 />
         <CTA
-          heading="Ready to Get Underway"
-          subHeading="Reach out and let's get the ball rolling"
-          link="/contact"
-          buttonText="Get Started"
+          heading="Free Site Review Video"
+          subHeading="Let me record a video applying these principles to your current website."
+          link="/site-review"
+          buttonText="Send Me the Review"
         />
       </main>
     </div>
