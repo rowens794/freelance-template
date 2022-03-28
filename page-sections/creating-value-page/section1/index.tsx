@@ -51,13 +51,16 @@ export default function Example(props: Props) {
                     on Google
                   </span>
                 </div>
-                <Image
-                  src="/images/search-term.png"
-                  width={950}
-                  height={400}
-                  className="relative z-10"
-                  alt="Organic search for financial advisors increasing"
-                />
+                <div className="relative">
+                  <div id="advisor-search" className="absolute -top-36"></div>
+                  <Image
+                    src="/images/search-term.png"
+                    width={950}
+                    height={400}
+                    className="relative z-10"
+                    alt="Organic search for financial advisors increasing"
+                  />
+                </div>
                 <p className="m-0 text-xs italic font-light text-right text-gray-500">
                   source:{' '}
                   <a

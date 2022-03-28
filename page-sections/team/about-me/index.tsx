@@ -11,24 +11,24 @@ export default function Example() {
             </h2>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
               I've spent over a decade working as an investment advisor, serving
-              high-net-worth and institutional clients. During this part of my
-              career, I worked closely with clients and prospects and developed
-              a deep understanding of the issues that drove them to make
-              decisions. When I left investment management, I knew I wanted to
-              help investment advisors deliver the right message to their
-              current and future customers.
+              high-net-worth and institutional clients. I worked closely with
+              clients and prospects and developed a deep understanding of the
+              issues that drove them to make decisions. I left investment
+              management to start a software company and this agency, I knew I
+              wanted to help investment advisors deliver the right message to
+              their current and future customers.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
               As I looked out at the market for web development solutions for
-              investment advisors, I saw a slew of low-quality agencies that
+              investment advisors, I saw a slew of low-quality providers that
               slapped an advisor's logo on a slow, poorly written template with
-              no support and charge hundreds of dollars a month. This struck as
-              a very poor value proposition.
+              no support and charged hundreds of dollars a month for the
+              privledge. This struck as a very poor value proposition.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">
-              There was, of course, another side to the market filled with
-              high-end agencies that produce beautiful high-quality sites but
-              charge five figures for development. This investment is hard to
+              The other side of the market was comprised of high-end agencies
+              that produce beautiful high-quality sites but charged tens of
+              thousands of dollars for development. This investment is hard to
               justify for small practices.
             </p>
             <p className="max-w-lg m-auto text-left text-gray-500 text-md">

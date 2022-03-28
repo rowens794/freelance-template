@@ -130,8 +130,7 @@ export default function Index() {
           </h1>
           <p className="mt-8 text-xl leading-8 text-gray-500">
             Every engagement is unique, and I will adapt the project to ensure
-            your needs are met. However, what you should expect when you work
-            with me is the following:
+            your needs are met. When you work with me, you should expect:
           </p>
 
           <ul className="grid grid-cols-1 mt-8 ml-12 text-gray-500 list-disc sm:ml-8 sm:grid-cols-2">

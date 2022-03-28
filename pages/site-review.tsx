@@ -45,13 +45,13 @@ const Home: NextPage = () => {
             },
             {
               name: 'Page Speed',
-              description: `Speed has become a big factor for both conversions and SEO. To ensure your pages perform, I'll take the through a gantlet of speed tests.`,
+              description: `Speed is a big factor for both conversions and SEO. I'll take your site through a gantlet of speed tests to ensure top performance.`,
               icon: ClockIcon,
             },
             {
               name: 'On-Page SEO',
               description:
-                'Are you taking the proper steps to ensure your site is interpreted correctly by search engines?',
+                'Are you taking the proper steps to ensure your site is read and ranked by search engines?',
               icon: DocumentSearchIcon,
             },
             {

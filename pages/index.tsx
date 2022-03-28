@@ -47,13 +47,13 @@ const Home: NextPage = () => {
           secParagraph="Think of your website as a member of your team.  Always ready to answer any questions that a prospect has and deliver that prospect to an advisor."
           features={[
             {
-              name: 'Capture Organic Traffic',
+              name: 'Generate Organic Traffic',
               description:
-                'Match the search intent of your future customers so that google ranks you highly.',
+                'Match the search intent of your prospects and climb the organice search rankings.',
               icon: SearchCircleIcon,
             },
             {
-              name: 'Built to Get Leads',
+              name: 'Capture Leads',
               description:
                 'Make it easy for visitors to take the first step into your sales process.',
               icon: BadgeCheckIcon,

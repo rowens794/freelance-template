@@ -67,12 +67,12 @@ export default function Example() {
               </p>
               <p>
                 The problem is that getting these channels right is complicated,
-                time-consuming, and financially risky—you may need to commit to
-                a social media strategy for months before you see any results.
+                time-consuming, and financially risky. You need to commit to a
+                social media strategy for months before you see any results.
                 Advertisers require a minimum spend with no guarantee of how
                 many new leads you will generate. And setting a polished
                 website, even with just a handful of pages, can cost north of
-                $10,000 at a quality agency, yet you'll get no promises about
+                $10,000 at a brand name agency, yet you'll get no promises about
                 how well it will convert.
               </p>
 
@@ -93,6 +93,8 @@ export default function Example() {
                 </li>
               </ul>
 
+              <p>Let's get rid of these.</p>
+
               <h4>Removing the Time Commitment</h4>
               <p>
                 Launching or re-launching a website is a major project. As the
@@ -103,8 +105,8 @@ export default function Example() {
                 hours.
               </p>
               <p>
-                Because I come from the wealth management space, I can remove a
-                lot of this work for you. I know the language that clients
+                Because I come from the wealth management space, I can remove
+                95% of this work for you. I know the language that clients
                 speak, how to sell these services, and how to visually represent
                 the value you provide. By hiring a former investment advisor as
                 your web developer, you remove a massive chunk of the labor you

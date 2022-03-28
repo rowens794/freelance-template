@@ -16,13 +16,8 @@ export default function index({}: Props) {
             </span>
           </h1>
           <p className="my-6 text-left text-gray-500 xs:text-lg sm:mx-auto sm:mt-5 sm:max-w-lg md:mt-5 md:text-xl lg:mx-0">
-            I specialize in helping financial advisors and wealth managers
-            create a compelling online presence for their clients and
-            prospective clients in their market.
-          </p>
-          <p className="my-6 text-left text-gray-500 xs:text-lg sm:mx-auto sm:mt-5 sm:max-w-lg md:mt-5 md:text-xl lg:mx-0">
-            I want to help you understand exactly what's going right and wrong
-            with yours.
+            I want to help you understand what's going right and wrong with your
+            website.
           </p>
           <p className="my-6 text-left text-gray-500 xs:text-lg sm:mx-auto sm:mt-5 sm:max-w-lg md:mt-5 md:text-xl lg:mx-0">
             Fill out the form to the right, and{' '}
