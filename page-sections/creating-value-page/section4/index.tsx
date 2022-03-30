@@ -39,13 +39,13 @@ export default function Example(props: Props) {
               </p>
               <p className="mx-auto my-4 prose">
                 When they show up, they are either looking for newly released
-                information, or a refresher on information previously conveyed
+                information, or a refresher on information you've already given
                 to them.
               </p>
               <p className="mx-auto my-4 prose">
                 They come because they forgot the address of your office, or the
-                type of clients you work with, or where you studied. They come
-                with a concrete idea of the information they want to retrieve.
+                finer points of your bio. They arrive with a concrete idea of
+                the information they want to retrieve.
               </p>
               <p className="mx-auto my-4 prose">
                 If they find the information - fantastic! If they can't, they'll
@@ -60,13 +60,7 @@ export default function Example(props: Props) {
                 existing clients' desires, you shouldn't prioritize their needs
                 over prospective clients.
               </p>
-              <p className="mx-auto my-4 prose">
-                Much like your clients don't need to understand every manager or
-                security selection decision made in their portfolio, you only
-                need to have a broad understanding of the topics that will drive
-                results from your website so that you can make informed
-                decisions when you outsource the project.
-              </p>
+
               <h3 className="max-w-2xl pl-2 m-auto mt-8 text-xl font-bold leading-8 tracking-tight text-gray-700 sm:text-2xl">
                 Prospective Clients
               </h3>
@@ -90,12 +84,11 @@ export default function Example(props: Props) {
                 chance they will move on to the next advisor.
               </p>
               <p className="mx-auto my-4 prose">
-                Advisors are usually far too worried about narrowly defining who
-                they serve. Niching down too far feels self-limiting. However,
-                when you dig into who is showing up on your site and how they
-                are getting there, it's usually the case that one group
-                dominates all others. You should cater your message directly to
-                them.
+                Don't be afraid to narrowly define who you serve. Niching down
+                feels self-limiting. However, when you're competing for the
+                fleeting attention of a website visitor, it's often the case
+                that business is awarded to the advisor who most closely aligns
+                with the visitor's needs.
               </p>
 
               <h3 className="max-w-2xl pl-2 m-auto mt-8 text-xl font-bold leading-8 tracking-tight text-gray-700 sm:text-2xl">
@@ -121,13 +114,13 @@ export default function Example(props: Props) {
                 The Questions Your Visitors are Asking
               </h3>
               <p className="mx-auto my-4 prose">
-                By thinking through who's arriving at your website, we can
-                better understand the questions they're asking themselves when
-                they get there.
+                With a broad idea of who is visiting your site, you can now
+                begin to think about what they want from it.
               </p>
               <p className="mx-auto my-4 prose">
                 While you can't answer every question (nor would you want to),
-                this exercise helps you plan the content on your site and meet
+                going through the exercise of thinking about what questions each
+                group is asking helps you plan the content on your site and meet
                 your users' needs.
               </p>
               <Table />
@@ -177,7 +170,7 @@ const Table = () => {
                   {questions.map((q, i) => {
                     return (
                       <tr key={i}>
-                        <td className="py-2 pl-4 pr-3 text-sm text-gray-900 whitespace-nowrap sm:pl-6">
+                        <td className="py-2 pl-4 pr-3 text-sm text-gray-700 whitespace-nowrap sm:pl-6">
                           {q.text}
                         </td>
                         <td className="px-3 py-2 text-sm text-center text-gray-500 whitespace-nowrap">

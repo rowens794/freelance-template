@@ -19,12 +19,20 @@ export default function Example(props: Props) {
             <div className="mx-auto mt-5 text-gray-500 prose-primary ">
               <p className="mx-auto my-4 prose">
                 Most small practices in the US have not made their website a
-                focus of their customer acquisition strategy. It makes sense.
-                Historically, there has not been a critical mass of high intent
-                traffic to make the channel worth seriously pursuing. Over the
-                last few years, there's been a shift. People are changing their
-                behavior when it comes to finding help planning their future.
-                They are increasingly turning to the web to find an advisor.
+                focus of their customer acquisition strategy. Historically,
+                there has not been a critical mass of high intent traffic to
+                make the channel worth seriously pursuing. However, as we saw in
+                the{' '}
+                <a
+                  href="#advisor-search"
+                  className="font-base text-primary-700"
+                >
+                  chart
+                </a>{' '}
+                at the beginning of this article, over the last few years,
+                there's been a shift. People are changing their behavior when it
+                comes to finding help planning their future. They are
+                increasingly turning to the web to find an advisor.
               </p>
               <p className="mx-auto my-4 prose">
                 An opportunity exists for agile practices to create a presence

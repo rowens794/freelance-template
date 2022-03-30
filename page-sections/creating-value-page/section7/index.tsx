@@ -28,23 +28,25 @@ export default function Example(props: Props) {
               <p className="mx-auto my-4 prose">
                 With an understanding of who is visiting your site, where they
                 come from, and what they want, you are now in a position to ask
-                them to take an action. As you serve visitors content that
+                them to take an action. As you serve your visitors content that
                 satisfies their needs, present them with a call to action. This
-                call to action should be so high value that they can help but
-                take action.
+                call to action should be so valuable to them that they can help
+                but take action.
               </p>
               <p className="mx-auto my-4 prose">
                 As a financial advisor, the first step in your sales process is
                 getting contact information for people who have a need and a
-                desire for your services. To get that information, you need to
-                give the user a compelling reason to give it to you.
+                desire for your services. Don't worry about making the sale or
+                setting up a meeting at this stage - it's too much to ask.
+                Instead create an offer that's easy for a visitor to take action
+                on right now.
               </p>
               <p className="mx-auto my-4 prose">
                 By creating an offer that is both valuable and relevant to the
                 user, you'll have no trouble getting submissions. However,
                 formulating this offer requires some creativity. Books, guides,
                 white papers, webinars, a portfolio review all incentivize
-                someone to share their phone number or email address.{' '}
+                someone to share their phone number or email address.
               </p>
               <p className="mx-auto my-4 prose">
                 The less time and commitment you require from the user, the

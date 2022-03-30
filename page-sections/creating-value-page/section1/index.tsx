@@ -31,13 +31,12 @@ export default function Example(props: Props) {
                 clear why: these businesses are built on relationships, and you
                 can't sell a relationship online.
               </p>
+              <p className="mx-auto my-4 prose">This has changed.</p>
               <p className="mx-auto my-4 prose">
-                The lack of web-based growth is changing for professional
-                service providers and financial advisors, in particular. Over
-                the last decade, there's been a shift in how consumers search
-                for professional help with their financial affairs. It used to
-                be purely referral-based. But increasingly, people turn to the
-                web to find an advisor.
+                Over the last 5 years, there's been a shift in how consumers
+                search for professional help with their financial affairs. It
+                used to be purely referral-based. But increasingly, people turn
+                to the web to find an advisor.
               </p>
               <div className="relative my-8 lg:my-12">
                 <div className="absolute z-20 p-2 text-xs bg-white top-2 left-2 md:top-24 md:left-48 md:text-base">
@@ -84,25 +83,17 @@ export default function Example(props: Props) {
                 you.
               </p>
               <p className="mx-auto my-4 prose">
-                This trend won't be slowing down. It demonstrated robust and
-                consistent growth even before Covid-19. Now, in a post-pandemic
-                world where face-to-face interaction is plunging due to the work
-                from home revolution, making yourself visible and desirable
-                online is a necessity for continued growth.
+                This trend won't be slowing down. It showed consistent growth
+                even before Covid-19. Now, in a post-pandemic world where
+                face-to-face interaction is plunging due to the work from home
+                revolution, making yourself visible and desirable online is a
+                necessity for continued growth.
               </p>
 
               <p className="mx-auto my-4 prose">
                 Throughout this document, we'll be exploring the steps financial
                 advisors need to take to make sure they are building an online
                 foundation that will allow them to keep up with competitors.
-              </p>
-
-              <p className="mx-auto my-4 prose">
-                This trend won't be slowing down. It demonstrated robust and
-                consistent growth even before Covid-19. Now, in a post-pandemic
-                world where face-to-face interaction is plunging due to the work
-                from home, making yourself visible and desirable online is a
-                necessity for continued growth.
               </p>
             </div>
           </div>

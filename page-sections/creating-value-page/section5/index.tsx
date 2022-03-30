@@ -25,7 +25,7 @@ export default function Example(props: Props) {
           <div className="mt-8 lg:mt-0 ">
             <div className="mx-auto mt-5 text-gray-500 prose-primary ">
               <p className="mx-auto my-4 prose">
-                With an understanding of who your users are, we can now look at
+                With an understanding of who your users are, let's now look at
                 how they're getting to you.
               </p>
               <p className="mx-auto my-4 prose">
@@ -47,7 +47,7 @@ export default function Example(props: Props) {
                     on a link in a social media post
                   </li>
                   <li>
-                    <span className="underline">Paid</span> - clicking on an
+                    <span className="underline">Paid Ads</span> - clicking on an
                     advertisement (banner, social, or search)
                   </li>
                   <li>
@@ -61,11 +61,12 @@ export default function Example(props: Props) {
                 Direct Traffic
               </h3>
               <p className="mx-auto my-4 prose">
-                Direct traffic to your site is likely someone familiar with you.
-                The majority of this traffic will come from your current clients
-                or employees. They know or have bookmarked your URL - they want
-                a particular piece of information, and they aren't worried about
-                navigating your site to find it.
+                Direct traffic is a visit from someone who is already familiar
+                with you. The majority of this traffic will come from your
+                current clients or employees. They know or have bookmarked your
+                URL - they want a particular piece of information, and they
+                aren't worried about navigating the various sections of your
+                site to find it.
               </p>
               <p className="mx-auto my-4 prose">
                 Aside from having a well-designed and easy-to-navigate site,
@@ -77,15 +78,16 @@ export default function Example(props: Props) {
               </h3>
               <p className="mx-auto my-4 prose">
                 When someone on the internet links to your website and someone
-                follows that link, they are referral traffic. Just like in the
-                real world, they are literally being referred to you.
+                else follows that link, they are considered referral traffic.
+                Just like in the real world, they are literally being referred
+                to your site.
               </p>
               <p className="mx-auto my-4 prose">
-                Referral traffic is fantastic. Someone is essentially vouching
-                for your practice and your website's content. Further, referral
-                visitors are usually entirely unfamiliar with you. It's are
-                great opportunity to have a third party provide a warm
-                introduction to your practice and content.
+                Referral traffic is fantastic. The linking website is
+                essentially vouching for your practice and your website's
+                content. Further, referral visitors are usually entirely
+                unfamiliar with you. It's are great opportunity to have a third
+                party provide a warm introduction to your practice and content.
               </p>
               <p className="mx-auto my-4 prose">
                 The downside is that referral traffic is hard to get. Not only
@@ -99,14 +101,7 @@ export default function Example(props: Props) {
                 the Wall Street Journal, you're unlikely to see significant
                 referral traffic on your site.
               </p>
-              <p className="mx-auto my-4 prose">
-                Providing clients with direct access to the information they
-                want leads to an outstanding client experience. However, you
-                have to remember there is minimal risk to the relationship if
-                they can't find what they want. While you should be conscious of
-                existing clients' desires, you shouldn't prioritize their needs
-                over prospective clients.
-              </p>
+
               <h3 className="max-w-2xl pl-2 m-auto mt-8 text-xl font-bold leading-8 tracking-tight text-gray-700 sm:text-2xl">
                 Social Media
               </h3>
@@ -178,14 +173,8 @@ export default function Example(props: Props) {
               </p>
               <p className="mx-auto my-4 prose">
                 Depending on how well you can convert these clicks into
-                business, it can be a high ROI acquisition strategy to purchase
-                these ads from Google.
-              </p>
-              <p className="mx-auto my-4 prose">
-                While you shouldn't focus resources on meeting the needs of
-                these visitors, it does make sense to recognize that they exist
-                and think about the information they want. This exercise allows
-                you to either provide or purposely exclude it from the site.
+                business, it can be a high return-on-investment acquisition
+                strategy to purchase these ads from Google.
               </p>
               <p className="mx-auto my-4 prose">
                 In fact, it must work. If you go to Google right now and type in
@@ -210,8 +199,8 @@ export default function Example(props: Props) {
                 </p>
               </div>
               <p className="mx-auto my-4 prose">
-                These ads prove that this strategy is profitable for some firms;
-                otherwise, they wouldn't pay for the exposure.
+                These ads prove that this strategy can be profitable; otherwise,
+                these firms wouldn't pay for the exposure.
               </p>
               <p className="mx-auto my-4 prose">
                 Paid search traffic is powerful. It offers a source of traffic
@@ -247,9 +236,10 @@ export default function Example(props: Props) {
               </p>
               <p className="mx-auto my-4 prose">
                 Later on, we'll discuss organic search in more depth. For now, I
-                want to merge the ideas in Part 1 - Users with this section,
-                Part 2 - Traffic Sources, to better understand user intent when
-                people arrive on your site.
+                want to merge the ideas in part 1{' '}
+                <em>(The Users of Your Website)</em> with this section{' '}
+                <em>(Where Your Users Come From)</em>, to better understand user
+                intent when people arrive on your site.
               </p>
             </div>
           </div>

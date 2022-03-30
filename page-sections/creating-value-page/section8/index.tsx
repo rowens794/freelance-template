@@ -23,14 +23,14 @@ export default function Example(props: Props) {
             <div className="mx-auto mt-5 text-gray-500 prose-primary ">
               <p className="mx-auto my-4 prose">
                 Given the universal desire for free, highly targeted search
-                traffic, I want to include a section specific to capturing
-                visitors from this channel.
+                traffic, it makes sense to include a section here specific to
+                capturing visitors from search engines.
               </p>
               <p className="mx-auto my-4 prose">
                 Let's define a term that you'll hear thrown around frequently:
-                SEO. SEO or Search Engine Optimization is the process of
-                creating content (or pages) and performing work to ensure those
-                pages rank highly on search engines like google.
+                SEO. SEO or <b>Search Engine Optimization</b> is the process of
+                creating content (or pages) and doing everything in your power
+                to ensure those pages rank highly on search engines like google.
               </p>
               <p className="mx-auto my-4 prose">
                 SEO is a vast topic that spans target keyword research, page
@@ -40,18 +40,18 @@ export default function Example(props: Props) {
                 discipline in itself. You should, however, expect them to be
                 familiar with best practices for on-page SEO and talk to you
                 about what they are doing to give your page the best chance of
-                outperforming competing pages.
+                outperforming competitor's pages.
               </p>
               <h3 className="max-w-2xl pl-2 m-auto mt-8 text-xl font-bold leading-8 tracking-tight text-gray-700 sm:text-2xl">
                 On-Page SEO Best Practices
               </h3>
               <p className="mx-auto my-4 prose">
-                On-page SEO is simple to understand but challenging to implement
-                in practice. Properly executing on-page SEO requires that the
-                developer follows good coding practices, uses descriptive page
+                On-page SEO is simple to understand but challenging to
+                implement. Properly executing on-page SEO requires that the
+                developer follows good coding practices, use descriptive page
                 titles and headings, includes text descriptions of images and a
                 host of other technical items. Simply put, it requires
-                experience with SEO.
+                experience with SEO and attention to detail.
               </p>
               <p className="mx-auto my-4 prose">
                 Hubspot put out a fantastic{' '}
@@ -106,9 +106,7 @@ export default function Example(props: Props) {
               </p>
               <p className="mx-auto my-4 prose">
                 Items two through six all relate to ensuring that the content
-                you have is properly translated on the webpage through code. You
-                can use a tool like SEOOptimizer to verify that your developer
-                is doing their job.
+                you have is properly translated on the webpage through code.
               </p>
               <p className="mx-auto my-4 prose">
                 I'm going to skip commenting on page URLs and internal linking.
@@ -199,11 +197,10 @@ export default function Example(props: Props) {
               </h3>
               <p className="mx-auto my-4 prose">
                 All search traffic is not created equal. Certain search phrases
-                indicate a user is ready to take action. Earlier in the
-                document, we looked at data on the search phrase "financial
-                advisor near me." Put yourself in the shoes of the person who is
-                typing that search into Google. What do you think they want to
-                do?
+                indicate a user is ready to take action. Earlier, we looked at
+                data on the search phrase "financial advisor near me." Put
+                yourself in the shoes of the person who is typing that search
+                into Google. What do you think they want to do?
               </p>
               <p className="mx-auto my-4 prose">
                 I think it's very likely they want to hire a financial advisor.

@@ -32,12 +32,7 @@ export default function Example(props: Props) {
                 that, you need to make an informed inference about why that
                 visitor is on your site in the first place.
               </p>
-              <p className="mx-auto my-4 prose">
-                Sometimes you won't know why a visitor is on your site. When
-                this happens, you want to prioritize an experience that caters
-                to the needs of your highest-value visitors: prospective
-                clients.
-              </p>
+
               <p className="mx-auto my-4 prose">
                 To simulate understanding user intent, let's look at a few
                 examples.
@@ -47,11 +42,10 @@ export default function Example(props: Props) {
 
               <p className="mx-auto my-4 prose">
                 You could think through hundreds of these examples. As you do,
-                you'll find is that even if there are different paths users take
-                to arrive on your site, the content you need to provide once
-                they are there falls into specific buckets. Your goal is to make
-                sure each "content bucket" has a place on your website that is
-                easy to reach.
+                what you'll find is that even if there are different paths users
+                take to arrive at your site, the content you need to provide
+                once they are there falls into certain buckets. Your goal is to
+                make sure each "content bucket" has a place on your website.
               </p>
             </div>
           </div>
