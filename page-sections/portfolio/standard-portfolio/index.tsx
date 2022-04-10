@@ -6,9 +6,8 @@ const posts = [
     category: 'Marketing Site',
     description:
       'Wellington is a brochure site for an Investment Management company that helps individuals, companies, and nonprofit organizations manage & invest financial assets so that they can meet their long-term goals.',
-    pageImg: '/images/wellington.jpg',
+    pageImg: '/images/wellington.png',
     blurImg: '/images/wellington-blur.jpg',
-
     imageUrl: '/images/Wellington.jpg',
     buttonText: 'Visit Wellington',
     siteLink: 'https://demo-ria-site.netlify.app/',
@@ -21,7 +20,7 @@ const posts = [
     category: 'Marketing Site',
     description:
       "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech-savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
-    pageImg: '/images/logoipsum.jpg',
+    pageImg: '/images/logoipsum.png',
     blurImg: '/images/logoipsum-blur.jpg',
     imageUrl: '/images/wellingtonScreen.jpg',
     buttonText: "Visit Allison's",
@@ -35,9 +34,8 @@ const posts = [
     category: 'Web Application',
     description:
       "Intelispect is a Software as a Service business that needed a front and backend that would help them display information on more than 1.5 million nonprofit organizations in the US. They're site built using some of the latest web technologies to ensure that it's fast, stable, and easy to use.",
-    pageImg: '/images/intellispect.jpg',
+    pageImg: '/images/intellispect.png',
     blurImg: '/images/intellispect-blur.jpg',
-
     imageUrl: '/images/wellingtonScreen.jpg',
     buttonText: 'Visit Intellispect',
     siteLink: 'https://www.intellispect.co',
@@ -133,8 +131,7 @@ const NewPost = ({ post }: { post: any }) => {
             height={post.height / 4}
             className="w-full"
             blurDataURL={post.blurUrl}
-            priority={true}
-            loading="eager"
+            quality={50}
           />
         </div>
       </div>
