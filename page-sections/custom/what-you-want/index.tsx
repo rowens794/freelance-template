@@ -188,9 +188,9 @@ export default function index({}: Props) {
       </div>
 
       {/* Column 2 */}
-      <div className=" relative mx-auto my-4 h-[650px] rotate-0 md:my-0 md:rotate-3">
+      <div className=" relative mx-auto my-4 h-[650px] w-[320px] rotate-0 overflow-hidden md:my-0 md:rotate-3">
         <Iphone>
-          <div className="mx-auto flex h-[650px] w-full max-w-md origin-top-left flex-col justify-end overflow-y-hidden px-4">
+          <div className="mx-auto flex h-[650px] w-[320px] max-w-md  flex-col justify-end overflow-y-hidden px-4">
             {msgHopper.map((msg) => {
               return msg
             })}

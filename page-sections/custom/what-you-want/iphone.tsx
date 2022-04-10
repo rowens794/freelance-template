@@ -9,7 +9,7 @@ export default function ipad({ children }: Props) {
   return (
     <>
       <div
-        className={`${styles['marvel-device']} ${styles['iphone-x']} absolute -top-[107px] scale-75`}
+        className={`${styles['marvel-device']} ${styles['iphone-x']} absolute -left-[50px] -top-[107px] scale-75`}
       >
         <div className={styles.notch}>
           <div className={styles.camera}></div>

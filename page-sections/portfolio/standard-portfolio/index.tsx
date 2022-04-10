@@ -2,19 +2,6 @@ import Image from 'next/image'
 
 const posts = [
   {
-    title: 'Intellispect',
-    category: 'Web Application',
-    description:
-      "Intelispect is a Software as a Service business that needed a front and backend that would help them display information on more than 1.5 million nonprofit organizations in the US. They're site built using some of the latest web technologies to ensure that it's fast, stable, and easy to use.",
-    pageImg: '/images/intellispect.png',
-    imageUrl: '/images/wellingtonScreen.jpg',
-    buttonText: 'Visit Intellispect',
-    siteLink: 'https://www.intellispect.co',
-    alt: 'Intellispect Build',
-    height: 13578,
-    width: 1980,
-  },
-  {
     title: 'Wellington Asset Management',
     category: 'Marketing Site',
     description:
@@ -38,6 +25,19 @@ const posts = [
     siteLink: 'https://tax-site-staging.netlify.app/',
     alt: "Allison's Tax Build",
     height: 8540,
+    width: 1980,
+  },
+  {
+    title: 'Intellispect',
+    category: 'Web Application',
+    description:
+      "Intelispect is a Software as a Service business that needed a front and backend that would help them display information on more than 1.5 million nonprofit organizations in the US. They're site built using some of the latest web technologies to ensure that it's fast, stable, and easy to use.",
+    pageImg: '/images/intellispect.png',
+    imageUrl: '/images/wellingtonScreen.jpg',
+    buttonText: 'Visit Intellispect',
+    siteLink: 'https://www.intellispect.co',
+    alt: 'Intellispect Build',
+    height: 13578,
     width: 1980,
   },
 ]
@@ -118,24 +118,26 @@ const NewPost = ({ post }: { post: any }) => {
     <div className="relative">
       <div
         key={post.title}
-        className="relative mx-auto my-6 max-w-[495px] overflow-y-scroll rounded-md shadow-2xl"
+        className="relative mx-auto my-12 max-w-[495px] overflow-y-scroll rounded-md border border-gray-400 shadow-2xl"
       >
         <div className="relative z-10 h-[500px] w-full">
           <Image
             src={post.pageImg}
             alt={post.alt}
-            width={post.width / 5}
-            height={post.height / 5}
+            width={post.width / 4}
+            height={post.height / 4}
             className="w-full"
           />
         </div>
       </div>
 
-      <div className="absolute z-30 w-full bottom-12">
-        <p className="relative z-40 w-full px-2 py-4 text-xl font-semibold text-center text-white">
+      <div className="absolute z-30 w-full mx-auto bottom-6 ">
+        <p className="relative z-40 mx-auto w-full max-w-[495px] bg-primary-800 px-2 pt-4 text-center text-xl font-light text-white opacity-90">
           {post.title}
         </p>
-        <div className="absolute top-0 z-30 w-full h-full bg-primary-900 opacity-90"></div>
+        <p className="relative z-40 mx-auto w-full max-w-[495px] bg-primary-800 px-2 pb-4 text-center text-sm font-light text-white opacity-90">
+          {post.category}
+        </p>
       </div>
     </div>
   )
