@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import useVisibility from '../../../hooks/isVisible'
 import { ChatAlt2Icon } from '@heroicons/react/outline'
+import Iphone from './iphone'
 
 type Props = {}
 
@@ -160,7 +161,7 @@ export default function index({}: Props) {
 
   return (
     <div
-      className="grid max-w-md grid-cols-1 gap-6 px-4 py-16 mx-auto text-left sm:max-w-3xl sm:px-6 md:grid-cols-2 md:gap-0 lg:max-w-4xl lg:py-0 lg:px-8"
+      className="relative grid max-w-md grid-cols-1 gap-6 px-4 mx-auto text-left sm:max-w-3xl sm:px-6 md:grid-cols-2 md:gap-0 lg:max-w-4xl lg:px-8"
       ref={currentElement}
     >
       {/* Column 1 */}
@@ -187,14 +188,16 @@ export default function index({}: Props) {
       </div>
 
       {/* Column 2 */}
-      <div className=" h-96">
-        <div className="flex flex-col justify-end w-full max-w-md px-4 mx-auto overflow-y-hidden max-h-96">
-          {msgHopper.map((msg) => {
-            return msg
-          })}
-          {showTyping === 'You' ? <UserTyping /> : null}
-          {showTyping === 'Ryan' ? <RyanTyping /> : null}
-        </div>
+      <div className=" relative mx-auto my-4 h-[650px] rotate-0 md:my-0 md:rotate-3">
+        <Iphone>
+          <div className="mx-auto flex h-[650px] w-full max-w-md origin-top-left flex-col justify-end overflow-y-hidden px-4">
+            {msgHopper.map((msg) => {
+              return msg
+            })}
+            {showTyping === 'You' ? <UserTyping /> : null}
+            {showTyping === 'Ryan' ? <RyanTyping /> : null}
+          </div>
+        </Iphone>
       </div>
     </div>
   )
