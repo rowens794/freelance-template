@@ -6,42 +6,30 @@ const posts = [
     category: 'Marketing Site',
     description:
       'Wellington is a brochure site for an Investment Management company that helps individuals, companies, and nonprofit organizations manage & invest financial assets so that they can meet their long-term goals.',
-    pageImg: '/images/wellington.png',
-    blurImg: '/images/wellington-blur.jpg',
-    imageUrl: '/images/Wellington.jpg',
+    imageUrl: '/images/wellington.jpg',
     buttonText: 'Visit Wellington',
     siteLink: 'https://demo-ria-site.netlify.app/',
     alt: 'Wealth Management Build',
-    height: 11800,
-    width: 1980,
   },
   {
     title: "Allison's Tax & Financial Services",
     category: 'Marketing Site',
     description:
       "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech-savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
-    pageImg: '/images/logoipsum.png',
-    blurImg: '/images/logoipsum-blur.jpg',
-    imageUrl: '/images/wellingtonScreen.jpg',
+    imageUrl: '/images/lorem.jpg',
     buttonText: "Visit Allison's",
     siteLink: 'https://tax-site-staging.netlify.app/',
     alt: "Allison's Tax Build",
-    height: 8540,
-    width: 1980,
   },
   {
     title: 'Intellispect',
     category: 'Web Application',
     description:
       "Intelispect is a Software as a Service business that needed a front and backend that would help them display information on more than 1.5 million nonprofit organizations in the US. They're site built using some of the latest web technologies to ensure that it's fast, stable, and easy to use.",
-    pageImg: '/images/intellispect.png',
-    blurImg: '/images/intellispect-blur.jpg',
-    imageUrl: '/images/wellingtonScreen.jpg',
+    imageUrl: '/images/intellispect.jpg',
     buttonText: 'Visit Intellispect',
     siteLink: 'https://www.intellispect.co',
     alt: 'Intellispect Build',
-    height: 13578,
-    width: 1980,
   },
 ]
 
@@ -63,7 +51,7 @@ export default function Example() {
             Take a look at the work I've done to thrill my clients.
           </p>
         </div>
-        <div className="justify-center block gap-8 mx-auto mt-12 lg:grid lg:max-w-6xl lg:grid-cols-3">
+        <div className="justify-center block gap-8 mx-auto mt-12 md:grid md:max-w-6xl">
           {posts.map((post, i) => {
             return <NewPost post={post} key={i} />
           })}
@@ -118,32 +106,33 @@ const OrigPost = ({ post }: { post: any }) => {
 
 const NewPost = ({ post }: { post: any }) => {
   return (
-    <div className="relative">
+    <div className="relative mx-auto my-12 max-w-[700px]">
+      <p className="text-xl font-semibold text-primary-800">{post.title}</p>
+      <p className="text-sm font-medium text-primary-600">{post.category}</p>
       <div
         key={post.title}
-        className="relative mx-auto my-12 max-w-[495px] overflow-y-scroll rounded-md border border-gray-400 shadow-2xl"
+        className="relative mx-auto mt-4 mb-0 overflow-y-scroll rounded-md shadow-md md:my-24"
       >
-        <div className="relative z-10 h-[500px] w-full">
+        <div className="relative z-10 w-full border border-gray-200 text-[0px]">
           <Image
-            src={post.pageImg}
+            src={post.imageUrl}
             alt={post.alt}
-            width={post.width / 4}
-            height={post.height / 4}
+            width={1400 / 2}
+            height={900 / 2}
             className="w-full"
-            blurDataURL={post.blurUrl}
-            placeholder="blur"
             quality={50}
           />
         </div>
       </div>
 
-      <div className="absolute z-30 w-full mx-auto bottom-6 md:bottom-14 ">
-        <p className="relative z-40 mx-auto w-full max-w-[495px] bg-primary-800 px-2 pt-2 text-center text-lg font-light text-white opacity-90">
-          {post.title}
-        </p>
-        <p className="relative z-40 mx-auto w-full max-w-[495px] bg-primary-800 px-2 pb-2 text-center text-sm font-light text-white opacity-90">
-          {post.category}
-        </p>
+      <div className="relative z-30 mx-4 -translate-y-8 rounded-md shadow-md bg-primary-600 xs:mx-8 md:absolute md:bottom-0 md:-right-12 md:w-1/2">
+        <div className="flex-1">
+          <div className="block p-4 mt-2 rounded-md ">
+            <p className="mt-3 text-sm font-light text-gray-100">
+              {post.description}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   )
