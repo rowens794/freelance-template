@@ -12,13 +12,13 @@ const posts = [
     alt: 'Wealth Management Build',
   },
   {
-    title: "Allison's Tax & Financial Services",
+    title: 'Logo Ipsum',
     category: 'Marketing Site',
     description:
-      "Allison's is a Public Accounting office that focuses primarily on tax work.  As customers have become more and more tech-savvy, this business needed a web presence that showed up on Google alongside some of the major national players. ",
+      'Logo Ipsum is a concept design for an LPL financial advisory practice.  The site is structured in a way that helps visitors understand who the practice serves and how it can help them achieve their goals.',
     imageUrl: '/images/lorem.jpg',
-    buttonText: "Visit Allison's",
-    siteLink: 'https://tax-site-staging.netlify.app/',
+    buttonText: 'Visit Logo Ipsum',
+    siteLink: 'https://logoipsum-lpl.netlify.app/',
     alt: "Allison's Tax Build",
   },
   {
@@ -111,7 +111,7 @@ const NewPost = ({ post }: { post: any }) => {
       <p className="text-sm font-medium text-primary-600">{post.category}</p>
       <div
         key={post.title}
-        className="relative mx-auto mt-4 mb-0 overflow-y-scroll rounded-md shadow-md md:my-24"
+        className="relative mx-auto mt-4 mb-0 overflow-y-scroll rounded-md shadow-md md:my-4"
       >
         <div className="relative z-10 w-full border border-gray-200 text-[0px]">
           <Image
@@ -125,12 +125,20 @@ const NewPost = ({ post }: { post: any }) => {
         </div>
       </div>
 
-      <div className="relative z-30 mx-4 -translate-y-8 rounded-md shadow-md bg-primary-600 xs:mx-8 md:absolute md:bottom-0 md:-right-12 md:w-1/2">
+      <div className="relative z-30 mx-4 -translate-y-8 rounded-md shadow-md bg-primary-600 xs:mx-8 md:absolute md:-bottom-16 md:-right-12 md:w-1/2">
         <div className="flex-1">
-          <div className="block p-4 mt-2 rounded-md ">
+          <div className="block p-4 rounded-md ">
             <p className="mt-3 text-sm font-light text-gray-100">
               {post.description}
             </p>
+            <div className="w-full my-2 text-right">
+              <a
+                href={post.siteLink}
+                className="w-full text-sm text-right text-white underline"
+              >
+                Visit Site
+              </a>
+            </div>
           </div>
         </div>
       </div>
