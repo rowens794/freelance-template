@@ -131,6 +131,7 @@ const NewPost = ({ post }: { post: any }) => {
             height={post.height / 4}
             className="w-full"
             blurDataURL={post.blurUrl}
+            placeholder="blur"
             quality={50}
           />
         </div>
